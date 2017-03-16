@@ -1,0 +1,29 @@
+.wrap {
+	border: 1px solid grey;
+	height: 600px;
+	
+	padding: 0;
+
+	width: 680px;
+	height: 1000px;
+	margin:0 auto; /* 整个DIV居中，必须设置width*/
+}
+
+.container {
+	margin: 10px;
+}
+
+.rect {
+	background-color: orange;
+	padding: 0;
+	margin: 10px;
+	float: left;	/*矩形方块往左浮动*/
+
+	height: 200px;
+	width: 200px;
+	
+	border-radius: 10px;
+}
+.rect:hover {
+	background-color: purple;	/*选中时的颜色*/
+}
