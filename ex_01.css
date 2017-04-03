@@ -1,23 +1,11 @@
 div.wrap {
-	/*border: 1px solid grey;*/
-
-	width: 100%;
+		width: 100%;
+	min-width: 320px;
+	max-width: 640px;
 
 	margin: 0 auto;  整个DIV居中，必须设置width
-
-	text-align: center;
 }
 
-div.container {
-	margin: 0 auto;
-	text-align: center;
-	
-	width: 100%;
-	min-width: 320px;
-	min-height: 640px;
-
-	overflow: hidden;
-}
 
 div.rect {
 	background-color: orange;
@@ -28,21 +16,10 @@ div.rect {
 	padding-top: 15%;
 	padding-bottom: 15%;
 
-
-/*	display:inline; 
-	zoom:1; */
-
 	border-radius: 0.8em;
-	float: left;	/*矩形方块往左浮动*/
+	float: left;	
 }
 
 div.rect:hover {
 	background-color: purple;	/*选中时的颜色*/
-}
-
-div.right {
-
-	width: auto;
-	float: right;
-	clear: both;
 }
