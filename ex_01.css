@@ -1,29 +1,48 @@
-.wrap {
-	border: 1px solid grey;
-	height: 600px;
+div.wrap {
+	/*border: 1px solid grey;*/
+
+	width: 100%;
+
+	margin: 0 auto;  整个DIV居中，必须设置width
+
+	text-align: center;
+}
+
+div.container {
+	margin: 0 auto;
+	text-align: center;
 	
-	padding: 0;
+	width: 100%;
+	min-width: 320px;
+	min-height: 640px;
 
-	width: 680px;
-	height: 1000px;
-	margin:0 auto; /* 整个DIV居中，必须设置width*/
+	overflow: hidden;
 }
 
-.container {
-	margin: 10px;
-}
-
-.rect {
+div.rect {
 	background-color: orange;
-	padding: 0;
-	margin: 10px;
-	float: left;	/*矩形方块往左浮动*/
 
-	height: 200px;
-	width: 200px;
-	
-	border-radius: 10px;
+	width: 30%;
+	margin: 1% 1%;
+
+	padding-top: 15%;
+	padding-bottom: 15%;
+
+
+/*	display:inline; 
+	zoom:1; */
+
+	border-radius: 0.8em;
+	float: left;	/*矩形方块往左浮动*/
 }
-.rect:hover {
+
+div.rect:hover {
 	background-color: purple;	/*选中时的颜色*/
+}
+
+div.right {
+
+	width: auto;
+	float: right;
+	clear: both;
 }
