@@ -1,0 +1,69 @@
+div.container {
+	background-color: #00CACA;
+}
+
+div.logo {
+	text-align: center;
+	width: 100%;
+	padding-top: 25%;
+	padding-bottom: 10%;
+}
+
+div.logoimg {
+	text-align: center;
+	width: 100%;
+}
+
+img.logo {
+	width: 35%;
+}
+
+div.text {
+	text-align: center;
+	margin: 0% 10%;
+	padding-top: 5%;
+	padding-bottom: 10%;
+	width: 80%;
+	font-size: 1.5rem;
+	color: #FFFFFF;
+}
+
+
+div.items {
+	text-align: center;
+
+	padding-top: 10%;
+	padding-bottom: 10%;
+
+	width: 100%;
+	display: inline-block;
+}
+
+
+
+div.left {
+	text-align: center;
+
+	margin-left: 15%;
+	margin-right:auto;
+
+	width: 30%;
+	float: left;
+}
+
+div.right {
+	text-align: center;
+
+	margin-left: auto;
+	margin-right: 15%;
+
+	width: 30%;
+	float: right;
+}
+
+
+p.left {
+}
+
+p.right {
+}
