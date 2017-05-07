@@ -4,6 +4,7 @@ body {
 	  /*-webkit-font-smoothing: antialiased;*/
 	  /*overflow-x: hidden;	*/
 	  /*隐藏横向滚动条*/
+	  margin: 0;
 }
 
 .header {
@@ -146,7 +147,7 @@ body {
 }*/
 
 input.user {
-	background: white url(./Pic/iphone_small.png) 5% 50% no-repeat;
+	background: white url(iphone_small.png) 5% 50% no-repeat;
 	color: #999;
 	width: 85%;
 	height: 2rem;
@@ -161,7 +162,7 @@ input.user {
 }
 
 input.psw {
-	background: white url(./Pic/locked_small.png) 5% 50% no-repeat;
+	background: white url(locked_small.png) 5% 50% no-repeat;
 	color: #999;
 	width: 85%;
 	height: 2rem;
