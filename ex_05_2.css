@@ -1,0 +1,267 @@
+body {
+	font-family: Arial,"Times New Roman",
+				"Microsoft YaHei", SimSun, SimHei;
+	margin: 0;
+	height: 600px;
+}
+
+.head {
+	width: 100%;
+}
+
+.nav {
+	width: 100%;
+	height: 50px;
+	background-color: #5FC0CD;
+	position: fixed;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 50px;
+	z-index: 9999;
+}
+
+.nav-wwap {
+	width: 90%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.nav-wwap a {
+	padding: 0;
+	margin: 0 auto;
+	color: white;
+	text-decoration: none;
+}
+
+.navibar-link {
+	width: 25%;
+	height: 36px;
+	line-height: 40px;
+	padding: 0;
+	margin: 0 0 0 -1%;
+	background-color: #55a8b3;
+	border-radius: 10%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.profile-link {
+	height: 50px;
+	position: absolute;
+	top: 0%;
+	right: 0%;
+	z-index: 9999;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 50px;
+	float: right;
+}
+
+.profile-link img {
+	width: 50%;
+	padding: 20%;
+	vertical-align: middle;
+}
+
+
+.filter {
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	top: 50px;
+	z-index: 9999;
+	border-bottom: 1px solid grey;
+	background-color: #F8FAFB;
+}
+
+.filter a {
+	text-decoration: none;
+	color: grey;
+}
+
+.location, .meal, .condition{
+	width: 33.33%;
+	height: 50px;
+	float: left;
+	line-height: 50px;
+	text-align: center;
+}
+
+.filter-link {
+	width: 100%;
+	height: 50px;
+	vertical-align: middle;
+}
+
+
+
+.result {
+	width: 100%;
+	z-index: 100;
+	position: absolute;
+	top: 100px;
+	margin-left: -10px;
+}
+
+.so-list {
+	list-style-type: none;
+	height: 70px;
+	vertical-align: middle;
+	margin-top: 5px;
+}
+
+.so-list li {
+	line-height: 22px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+.service-info {
+	vertical-align: middle;
+}
+
+.service-info, .service-content {
+	width: 100%;
+}
+
+.service-date-attr {
+	width: 100%;
+	display: block;
+}
+
+.service-date-attr:after {
+	content: "服务日期";
+	font-size: 14px;
+	color: grey;
+}
+
+.service-date-cnt {
+	width: 100%;
+	font-size: 14px;
+}
+
+.service-salary {
+	float: right;
+	position: relative;
+	right: 20px;
+	/*right: 1em;*/
+	color: red;
+	font-size: 14px;
+}
+
+.service-location {
+	display: block;
+	color: grey;
+	font-size: 12px;
+}
+
+.split-line {
+	height: 1px;
+	background: #f2f2f2;
+}
+
+.service-detail {
+	float: right;
+	position: relative;
+	top: -20px;
+	right: -65px;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 60px;
+}
+
+.service-detail img {
+	max-width: 10px;
+	position: relative;
+	top: 5px;
+}
+
+.service-detail-link {
+	width: 20px;
+	height: 60px;
+}
+
+
+
+.footer {
+	background-color: #F8FAFB;
+
+	width: 100%;
+	max-height: 40px;
+
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	z-index: 9999;
+
+	display: table;
+	table-layout: fixed; 
+}
+
+.footer-left, .footer-center, .footer-right {
+	height: 50px;
+	line-height: 50px;
+	vertical-align: middle;
+	
+	padding: 0;
+	margin: 0 auto;
+
+	display: table-cell;
+}
+
+.footer a {
+	line-height: 30px;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.home-pic, .my-pic {
+	height: 40%;
+}
+
+.footer-text {
+	height: 10px;
+	font-size: 13px;
+	color: #5FC0CD;
+	padding-top: 5px;
+}
+
+
+.footer-left {
+}
+.footer-center {
+}
+.footer-right {
+}
+
+.home, .my, .comment {
+	width: 50%;
+	height: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+.home {
+	float: right;
+}
+.my {
+	float: left;
+}
+.comment {
+	width: 50px;
+}
+
+.footer-left img {
+	max-height: 20px;
+	vertical-align: middle;
+}
+
+.footer-center img {
+	max-height: 40px;
+	vertical-align: middle;
+}
+
+.footer-right img {
+	max-height: 20px;
+	vertical-align: middle;
+}
+
