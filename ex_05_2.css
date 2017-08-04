@@ -118,6 +118,7 @@ body {
 
 .service-info {
 	vertical-align: middle;
+	position: relative;
 }
 
 .service-info, .service-content {
@@ -161,10 +162,10 @@ body {
 }
 
 .service-detail {
-	float: right;
-	position: relative;
-	top: -20px;
-	right: -65px;
+	box-sizing: inherit;
+	position: absolute;
+	top: 0%;
+	right: 0%;
 	vertical-align: middle;
 	text-align: center;
 	line-height: 60px;
