@@ -101,6 +101,7 @@ body {
 	position: absolute;
 	top: 100px;
 	margin-left: -10px;
+	min-height: 750px;
 }
 
 .so-list {
