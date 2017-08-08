@@ -91,7 +91,56 @@ body {
 	width: 100%;
 	height: 50px;
 	vertical-align: middle;
+	position: relative;
+	border-right: 1px solid grey;
 }
+
+/*css模拟下拉菜单*/
+.drop-down-content {
+	padding: 0;
+	opacity: 0.3;
+	height: 0;
+	overflow: hidden;
+	transition: all 1s ease;
+	position: absolute;
+	top: 70%;
+	width: inherit;
+}
+
+.drop-down-content a {
+	display: block;
+	text-decoration: none;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: black;
+	background-color: #F8FAFB;
+	width: inherit;
+}
+
+.drop-down-content li:hover a{
+    background-color: #5FC0CD;
+}
+
+.filter-link:hover .drop-down-content{
+    opacity: 1;
+    height: 150px;
+}
+/*css模拟下拉菜单 end*/
+
+.filter-select {
+	position: absolute;
+	right: 6%;
+	top: -5%;
+	vertical-align: middle;
+	text-align: center;
+
+}
+
+.filter-select img {
+	width: 9px;
+}
+
 
 
 
@@ -100,7 +149,7 @@ body {
 	z-index: 100;
 	position: absolute;
 	top: 100px;
-	margin-left: -10px;
+	/*margin-left: -10px;*/  /*原有*/
 	min-height: 750px;
 }
 
@@ -109,6 +158,7 @@ body {
 	height: 70px;
 	vertical-align: middle;
 	margin-top: 5px;
+	margin-left: -1.8rem;	/*临时*/
 }
 
 .so-list li {
@@ -125,12 +175,18 @@ body {
 .service-info, .service-content {
 	width: 100%;
 }
+.service-content {
+	/*position: relative;*/
+}
 
 .service-date-attr {
 	width: 100%;
+	padding-left: 20px;
 	display: block;
+	background:transparent url(./Pic/date-grey.png) 0% 35% no-repeat;
+	background-size: 13px 13px;
 }
-
+/*可以统一加入内容*/
 .service-date-attr:after {
 	content: "服务日期";
 	font-size: 14px;
@@ -140,6 +196,7 @@ body {
 .service-date-cnt {
 	width: 100%;
 	font-size: 14px;
+	padding-left: 20px;
 }
 
 .service-salary {
@@ -155,12 +212,16 @@ body {
 	display: block;
 	color: grey;
 	font-size: 12px;
+	background:transparent url(./Pic/location-grey.png) 0% 30% no-repeat;
+	background-size: 11px 11px;
+	padding-left: 20px;
 }
 
 .split-line {
 	height: 1px;
 	background: #f2f2f2;
 }
+
 
 .service-detail {
 	box-sizing: inherit;
@@ -181,6 +242,7 @@ body {
 .service-detail-link {
 	width: 20px;
 	height: 60px;
+	/*background:url(./Pic/ex56.png) no-repeat 0px 0px;width:10px;padding-left:21px;*/
 }
 
 
