@@ -177,6 +177,7 @@ body {
 }
 .service-content {
 	/*position: relative;*/
+	display: inline-block;
 }
 
 .service-date-attr {
@@ -185,6 +186,7 @@ body {
 	display: block;
 	background:transparent url(./Pic/date-grey.png) 0% 35% no-repeat;
 	background-size: 13px 13px;
+	/*position: relative;*/
 }
 /*可以统一加入内容*/
 .service-date-attr:after {
@@ -194,19 +196,38 @@ body {
 }
 
 .service-date-cnt {
-	width: 100%;
-	font-size: 14px;
+	width: 60%;
+	height: 16px;
+	display: inline-block;
 	padding-left: 20px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.date-span {
+	width: 100%;
+	height: inherit;
+	font-size: 15px;	
 }
 
+
 .service-salary {
-	float: right;
-	position: relative;
-	right: 20px;
-	/*right: 1em;*/
-	color: red;
-	font-size: 14px;
+	position: absolute;
+	display: inline-block;
+	height: 20px;
+	width: 40%;	
+	text-align: center;
 }
+.salary {
+	position: relative;
+	padding-right: 1.5em;
+	color: red;
+	text-align: center;
+	height: inherit;
+	display: inline-block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
 
 .service-location {
 	display: block;
@@ -217,6 +238,7 @@ body {
 	padding-left: 20px;
 }
 
+/*灰色分割线*/
 .split-line {
 	height: 1px;
 	background: #f2f2f2;
