@@ -194,13 +194,13 @@ body {
 
 .service-date-cnt {
 	width: 55%;
-	height: 17px;
+	height: 20px;
 	display: inline-block;
 	padding-left: 20px;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	vertical-align: middle;
-	line-height: 17px;
+	line-height: 20px;
 }
 .date-span {
 	width: 100%;
