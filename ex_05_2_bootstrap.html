@@ -7,8 +7,7 @@
 									maximum-sacle=1.0,
 									user-scalable=no">	
 	<title>护工个人页面(bootstrap)</title>
-	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<!-- <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+	<link href="./bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="ex_05_2_bootstrap.css">
 </head>
 <body>
@@ -33,40 +32,76 @@
 	</div>
 	
 	<div class="filter">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row fliter-row">
-				<div class="col-4 filter-col" 
+				<div class="col-xs-4 filter-col" 
 					style="border-right: 1px solid grey;">
-					<button class="btn btn-block" type="button">123</button>
+					<div class="dropdown">
+						<button type="button" 
+						class="btn btn-block dropdown-toggle" 
+						id="dropdownMenu1" data-toggle="dropdown">所在地
+							<span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu" role="menu" 
+						aria-labelledby="dropdownMenu1">
+							<li role="presentation">
+								<a role="menuitem" tabindex="-1" href="#">北京</a>
+							</li>
+							<li role="presentation">
+								<a role="menuitem" tabindex="-1" href="#">上海</a>
+							</li>
+							<li role="presentation">
+								<a role="menuitem" tabindex="-1" href="#">广州</a>
+							</li>			
+						</ul>
+					</div>
 				</div>
-				<div class="col-4 filter-col"
+				<div class="col-xs-4 filter-col"
 					style="border-right: 1px solid grey;">
-					<button class="btn btn-block" type="button">123</button>
+					<div class="dropdown">
+						<button type="button" 
+						class="btn btn-block dropdown-toggle" 
+						id="dropdownMenu1" data-toggle="dropdown">食宿
+							<span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu" role="menu" 
+						aria-labelledby="dropdownMenu2">
+							<li role="presentation">
+								<a role="menuitem" tabindex="-1" href="#">包食宿</a>
+							</li>
+							<li role="presentation">
+								<a role="menuitem" tabindex="-1" href="#">仅伙食</a>
+							</li>
+							<li role="presentation">
+								<a role="menuitem" tabindex="-1" href="#">仅住宿</a>
+							</li>			
+						</ul>
+					</div>
 				</div>
-				<div class="col-4 filter-col" >
-					<button class="btn btn-block" type="button">123</button>
-				</div>				
+				<div class="col-xs-4 filter-col" >
+					<div class="dropdown">
+						<button type="button" 
+						class="btn btn-block dropdown-toggle" 
+						id="dropdownMenu1" data-toggle="dropdown">病人情况
+							<span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu" role="menu" 
+						aria-labelledby="dropdownMenu1">
+							<li role="presentation">
+								<a role="menuitem" tabindex="-1" href="#">健康</a>
+							</li>
+							<li role="presentation">
+								<a role="menuitem" tabindex="-1" href="#">轻度病情</a>
+							</li>
+							<li role="presentation">
+								<a role="menuitem" tabindex="-1" href="#">重度病情</a>
+							</li>			
+						</ul>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
-
-	<div class="dropdown" style="position: fixed;top: 200px;">
-		<button type="button" class="btn dropdown-toggle" id="dropdownMenu1" 
-				data-toggle="dropdown">
-			主题
-			<span class="caret"></span>
-		</button>
-		<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-			<li role="presentation">
-				<a role="menuitem" tabindex="-1" href="#">Java</a>
-			</li>
-			<li role="presentation">
-				<a role="menuitem" tabindex="-1" href="#">数据挖掘</a>
-			</li>
-		</ul>
-	</div>
-
-
 
 
 
@@ -74,11 +109,8 @@
 
 
 	<!-- jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery) -->
-	<!-- <script src="https://code.jquery.com/jquery.js"></script> -->
+	<script src="https://code.jquery.com/jquery.js"></script>
 	<!-- 包括所有已编译的插件 -->
-	<!-- <script src="./bootstrap/js/bootstrap.min.js"></script> -->
-
-	<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
-	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="./bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>

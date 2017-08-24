@@ -1,20 +1,24 @@
-.header .nav {
+.nav, .profile-link, .filter {
+	position: fixed;
+	z-index: 9999;
+}
+.header, .nav, .filter, .filter-row {
 	width: 100%;
 }
+.nav, .nav-wwap, .fliter-row, li{
+	text-align: center;
+}
+
 
 .nav {
 	height: 50px;
 	background-color: #5FC0CD;
-	position: fixed;
-	text-align: center;
 	vertical-align: middle;
-	line-height: 45px;
-	z-index: 9999;
+	line-height: 48px;
 }
 
 .nav-wwap {
-	width: 90%;
-	text-align: center;
+	/*width: 90%;*/
 	margin: 0 auto;
 }
 
@@ -36,44 +40,49 @@
 	display: inline-block;
 	vertical-align: middle;
 	font-family: "Microsoft YaHei";
+	font-size: 16px;
 }
 
 .profile-link {
 	width: 45px;
 	height: 50px;
-	position: fixed;
-	top: 0%;
-	right: 0%;
-	z-index: 9999;
+	top: 0;
+	right: 0;
 	line-height: 50px;
 	background: url(./Pic/profile.png) no-repeat center center;
 	background-size: 45% 45%;
 }
 
 
-.container {
+.container-fluid {
 	padding-left: 0;
 	padding-right: 0;
 }
-
+li {
+	padding-right: 10px;
+}
 .filter {
-	width: 100%;
-	position: fixed;
 	top: 50px;
-	z-index: 9999;
-	margin-left: 0px;
-	margin-right: 0px;
+	margin-left: 0;
+	margin-right: 0;
 	border-bottom: 1px solid grey;
-	background-color: #F8FAFB;
 }
 .fliter-row {
-	width: 100%;
-	text-align: center;
-		margin-left: 0;
+	margin-left: 0;
 }
 .filter-col {
 	padding-left: 0;
 	padding-right: 0;
-	/*height: 50px;*/
+	height: 50px;
+}
+
+.dropdown, .btn {
+	height: inherit;
+	font-size: 16px;
+}
+.filter, .btn, .dropdown-menu {
 	background-color: #F8FAFB;
+}
+.dropdown-menu {
+	min-width: 100%;
 }
