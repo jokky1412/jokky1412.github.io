@@ -2,7 +2,7 @@
 	position: fixed;
 	z-index: 9999;
 }
-.header, .nav, .filter, .filter-row {
+.header, .nav, .filter, .filter-row, .result {
 	width: 100%;
 }
 .nav, .nav-wwap, .fliter-row, li{
@@ -58,9 +58,6 @@
 	padding-left: 0;
 	padding-right: 0;
 }
-li {
-	padding-right: 10px;
-}
 .filter {
 	top: 50px;
 	margin-left: 0;
@@ -69,13 +66,14 @@ li {
 }
 .fliter-row {
 	margin-left: 0;
+	margin-right: 0;
 }
 .filter-col {
 	padding-left: 0;
 	padding-right: 0;
 	height: 50px;
 }
-
+li a{z-index: 9999;}
 .dropdown, .btn {
 	height: inherit;
 	font-size: 16px;
@@ -86,3 +84,50 @@ li {
 .dropdown-menu {
 	min-width: 100%;
 }
+.caret {
+	position: absolute; 
+	right: 10%; 
+	top: 45%;
+}
+
+
+.list-group-item {
+	padding-top: 5px;
+}
+.result {
+	position: absolute;
+	z-index: 100;
+	top: 101px;
+}
+.result li {
+	padding-bottom: 0;
+}
+.result p {
+	margin-bottom: 2px;
+}
+.service {
+	text-align: left;
+	/*padding-left: 20px;*/
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.date-attr {
+	font-family: "Microsoft YaHei";
+	font-size: 14px;
+	color: grey;
+	text-align: center;
+}
+.date-cnt {
+	font-size: 16px;
+	padding-left: 25px;
+}
+.salary {
+	color: red;
+	font-size: 16px;
+}
+.location {
+	font-size: 12px;
+	color: grey;
+}
+
