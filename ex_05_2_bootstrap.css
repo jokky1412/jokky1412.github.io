@@ -201,7 +201,7 @@ li a {
 	text-align: center;
 }
  .footer-home span, .footer-profile span{
-	display: inline-block;
+	display: block;
 }
 .glyphicon-home, .glyphicon-user {
 	line-height: 40px;
