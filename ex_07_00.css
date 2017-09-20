@@ -1,0 +1,76 @@
+body {
+	background-color: #fafafa;
+}
+
+.header {
+	width: 100%;
+}
+.navbar {
+	width: 100%;
+	height: auto;
+	background-color: #29bde0;
+	vertical-align: middle;
+	line-height: 48px;	
+	margin-bottom: 0;
+}
+.navbar-btn {
+	position: relative;
+	float: left;
+	margin: 10px;
+	padding: 5px 6px;
+	border: 0;
+	border-radius: 4px;
+	background-color: transparent;
+	background-image: none;
+}
+
+
+.last-game, .game-title, .nav-tabs {
+	background-color: white;
+}
+.last-game-tab, .version-tab {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+li {
+	list-style: none;
+}
+
+
+.last-game {
+	text-align: center;
+	vertical-align: middle;
+	height: auto;
+}
+.game-title {
+	text-align: center;
+	vertical-align: middle;
+}
+.game-title h4 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.nav-tabs li, .nav-tabs span {
+	width: 100%;
+	text-align: center;
+}
+.nav-tabs span {
+	display: block;
+}
+.nav-tabs li {
+	height: auto;
+	overflow: hidden;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.nav-tabs a {
+	background-color: #69d1e9;
+	color: white;
+	width: 80%;
+	height: 4.5em;
+	text-align: center;
+}
+#nav-tabs-link {
+	margin: 0 auto;
+	line-height: 41px;
+}
