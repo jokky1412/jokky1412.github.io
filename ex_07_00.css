@@ -1,5 +1,6 @@
 body {
 	background-color: #fafafa;
+	letter-spacing: 1px;
 }
 
 .header {
@@ -26,11 +27,12 @@ body {
 
 
 .last-game, .game-title, .nav-tabs {
-	background-color: white;
+	background-color: #ffffff;
 }
 .last-game-tab, .version-tab {
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	border: 1px solid #e6e6e6;
 }
 li {
 	list-style: none;
@@ -41,21 +43,47 @@ li {
 	text-align: center;
 	vertical-align: middle;
 	height: auto;
+	line-height: 55px;
 }
+.last-game span {
+	color: #9a9a9a;
+	font-size: 18px;
+	display: block;
+	height: 35px;
+	line-height: 35px;
+}
+.last-game img {
+	position: absolute;
+	right: 3%;
+	top: 18px;
+	max-height: 20px;
+}
+
+
 .game-title {
 	text-align: center;
 	vertical-align: middle;
 }
-.game-title h4 {
+.game-title span {
+	display: block;
+	height: 40px;
 	margin-top: 0;
 	margin-bottom: 0;
+	line-height: 40px;
+	font-size: 20px;
+	color: #fbb435;
+	border-bottom: 2px solid #fde1ae;
 }
+
+
 .nav-tabs li, .nav-tabs span {
 	width: 100%;
 	text-align: center;
 }
 .nav-tabs span {
 	display: block;
+	color: #9a9a9a;
+	font-size: 12px;
 }
 .nav-tabs li {
 	height: auto;
@@ -67,10 +95,39 @@ li {
 	background-color: #69d1e9;
 	color: white;
 	width: 80%;
-	height: 4.5em;
+	height: 4em;
 	text-align: center;
+	font-size: 16px;
 }
 #nav-tabs-link {
 	margin: 0 auto;
-	line-height: 41px;
+	line-height: 42px;
+}
+
+
+.page-notice {
+	text-align: center;
+}
+.page-num {
+	display: inline-block;
+	background-color: #69d1e9;
+	height: 8px;
+	width: 8px;
+	border-radius: 8px;
+	margin: 0 auto;
+}
+
+
+.page-next {
+	width: 8%;
+	position: absolute;
+	right: 15px;
+	top: 47%;
+	line-height: 62px;
+	vertical-align: middle;
+	text-align: center;
+}
+.page-next img {
+	max-height: 28px;
+	margin: 0 auto;
 }
