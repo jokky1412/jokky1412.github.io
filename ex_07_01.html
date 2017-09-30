@@ -1,0 +1,197 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,
+									initial-scale=1.0,
+									maximum-sacle=1.0,
+									user-scalable=no">
+	<link rel="stylesheet" type="text/css" 
+	href="./bootstrap/3.3.7/css/bootstrap.min.css">			
+	<link rel="stylesheet" type="text/css" href="ex_07_01.css">			
+	<title>投票页面</title>
+</head>
+<body>
+	<div class="header navbar-fixed-top">
+		<div class="navbar container">
+			<div class="row">
+				<button type="button" class="navbar-btn page-menu" 
+				onclick="{location.href="#"}" >
+					<span class="sr-only">切换导航</span>
+					<img src="./Pic/task7/votepage/vote-menu.png">
+				</button>
+				<button type="button" class="navbar-btn page-close"
+				onclick="{location.href="#"}" >
+					<span></span>
+					<img src="./Pic/task7/votepage/vote-close.png">
+				</button>
+				<div class="page-title">
+					<h3>投票</h3>
+				</div>				
+			</div>
+		</div>
+	</div>
+
+	<div class="wrapper">
+		<div class="container-fluid">
+			<div class="nav music-player">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="btn-audio">
+							<audio id="mp3Btn">
+								<source src="./Audio/财富自由.mp3" 
+								id="mp3Btn" type="audio/mpeg">
+							</audio>					
+						</div>
+						<div class="vote-title">
+							<h5>发言讨论结束，大家请投票</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="inverted-triangle"></div>
+
+			<div class="select-page">
+				<div class="row">
+					<div class="col-md-12">
+						<span class="select-title">点击得票数最多人的头像
+						</span>
+					</div>
+				</div>
+				<div class="select-content">
+					<div class="row">
+						<div class="col-xs-4">
+							<div class="player">
+								<span class="player-name">水民</span>
+								<span class="player-number">1号</span>
+							</div>											
+						</div>
+						<div class="col-xs-4">
+							<div class="player">
+								<span class="player-name">水民</span>
+								<span class="player-number">2号</span>
+							</div>											
+						</div>
+						<div class="col-xs-4">
+							<div class="player">
+								<span class="player-name">警察</span>
+								<span class="player-number">3号</span>
+							</div>											
+						</div>										
+					</div>
+					<div class="row">
+						<div class="col-xs-4">
+							<div class="player">
+								<span class="player-name">水民</span>
+								<span class="player-number">1号</span>
+							</div>											
+						</div>
+						<div class="col-xs-4">
+							<div class="player">
+								<span class="player-name">水民</span>
+								<span class="player-number">2号</span>
+							</div>											
+						</div>
+						<div class="col-xs-4">
+							<div class="player">
+								<span class="player-name">警察</span>
+								<span class="player-number">3号</span>
+							</div>											
+						</div>										
+					</div>
+					<div class="row">
+						<div class="col-xs-4">
+							<div class="player">
+								<span class="player-name">水民</span>
+								<span class="player-number">1号</span>
+							</div>											
+						</div>
+						<div class="col-xs-4">
+							<div class="player">
+								<span class="player-name">水民</span>
+								<span class="player-number">2号</span>
+							</div>											
+						</div>
+						<div class="col-xs-4">
+							<div class="player">
+								<span class="player-name">警察</span>
+								<span class="player-number">3号</span>
+							</div>											
+						</div>										
+					</div>	
+					<div class="row">
+						<div class="col-xs-4">
+							<div class="player">
+								<span class="player-name">水民</span>
+								<span class="player-number">1号</span>
+							</div>											
+						</div>
+						<div class="col-xs-4">
+							<div class="player">
+								<span class="player-name">水民</span>
+								<span class="player-number">2号</span>
+							</div>											
+						</div>
+						<div class="col-xs-4">
+							<div class="player">
+								<span class="player-name">警察</span>
+								<span class="player-number">3号</span>
+							</div>											
+						</div>										
+					</div>														
+				</div>
+			</div>
+
+
+
+
+		</div>
+	</div>
+	
+	<div class="footer navbar-fixed-bottom">
+		<div class="footer container">
+			<div class="row">
+				<div class="col-md-12">
+					<button type="button" class="navbar-btn vote" 
+					onclick="{location.href="#"}" >
+						<span>投死</span>
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery) -->
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<!-- 包括所有已编译的插件 -->
+	<script src="./bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!-- 音乐播放器js脚本 -->	
+	<script type="text/javascript">
+				$(function(){
+					document.documentElement.style.fontSize = document.documentElement.clientWidth/7.5+"px";
+					
+					//播放完毕
+					$('#mp3Btn').on('ended', function() {
+						console.log("音频已播放完成");
+						// $('.btn-audio').css({'background':'url(images/voice_stop.png) no-repeat center bottom','background-size':'cover'});
+					})
+					//播放器控制
+					var audio = document.getElementById('mp3Btn');
+					audio.volume = .3;
+					$('.btn-audio').click(function() {
+						event.stopPropagation();//防止冒泡
+						if(audio.paused){ //如果当前是暂停状态
+							// $('.btn-audio').css({'background':'url(images/voice_play.png) no-repeat center bottom','background-size':'cover'});
+							// $('.btn-test').removeAttr('disabled').css('background','#FF296A');
+							audio.play(); //播放
+							return;
+						}else{//当前是播放状态
+							// $('.btn-audio').css({'background':'url(images/voice_stop.png) no-repeat center bottom','background-size':'cover'});
+							audio.pause(); //暂停
+						}
+					});
+				})
+	</script>
+</body>
+
+</html>
