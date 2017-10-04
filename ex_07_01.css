@@ -42,14 +42,16 @@
 
 .page-title {
 	width: 30%;
-	height: auto;
+	height: 40px;
 	margin: 0 auto;
 	text-align: center;
+	line-height: 40px;
 }
-.page-title h3 {
-	margin-top: 10px;
-	margin-bottom: 0px;
+.page-title span {
+	display: block;
+	font-size: 20px;
 	color: white;
+	margin: 0 auto;
 }
 
 
@@ -81,7 +83,6 @@
 }
 
 
-
 .inverted-triangle {
 	width: 14px;
 	height: 20px;
@@ -95,7 +96,6 @@
     border-right: 7px solid transparent;
     border-left: 7px solid transparent;
 }
-
 
 
 .select-page {
@@ -127,8 +127,8 @@
 }
 .player {
 	position: relative;
-	width: 80px;
-	height: 80px;
+	width: 90px;
+	height: 90px;
 	padding: 0;
 	margin: 10px auto;
 	background-color: #f5c97b;
@@ -141,7 +141,7 @@
 	height: 50%;
 	width: 100%;
 	font-size: 18px;
-	line-height: 50px;
+	line-height: 60px;
 }
 .player-number {
 	display: block;
@@ -151,8 +151,38 @@
 	position: absolute;
 	bottom: 0;
 	color: white;
-	line-height: 20px;
+	line-height: 25px;
 	background-color: #83b09a;
+}
+/*鼠标在头像上。显示四个操作按键：*/
+.player:hover ~ .vote-options {display: block;}
+/*父标签元素控制子标签元素：*/
+/*.vote-col:hover > .vote-options {display: block;}*/
+.vote-col {
+	height: 130px;
+}
+.vote-options {
+	display: none;
+	position: relative;
+	width: 100%;
+	height: 20px;
+	margin: 0 auto;
+	text-align: center;
+}
+.vote-btn {
+	width: 20px;
+	height: 20px;
+	background-color: transparent;
+	border: 0;
+	margin: 0 0px;
+	padding: 0 0px;
+	display: inline-block;
+	line-height: 15px;
+}
+.vote-btn img {
+	position: relative;
+	max-height: 20px;
+	margin: 0 auto;
 }
 
 
@@ -174,4 +204,14 @@
 	color: white;
 	text-align: center;
 	margin: 0 auto;
+}
+
+span,h1,h2,h3,h4,h5  {
+-webkit-touch-callout: none; /* iOS Safari */
+-webkit-user-select: none; /* Chrome/Safari/Opera */
+-khtml-user-select: none; /* Konqueror */
+-moz-user-select: none; /* Firefox */
+-ms-user-select: none; /* Internet Explorer/Edge */
+user-select: none; /* Non-prefixed version, currently
+not supported by any browser */
 }
