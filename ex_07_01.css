@@ -105,6 +105,7 @@
 	position: absolute;
 	z-index: 100;
 	top: 90px;
+	overflow: hidden;
 }
 .select-title {
 	display: block;
