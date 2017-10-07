@@ -184,7 +184,23 @@
 	max-height: 20px;
 	margin: 0 auto;
 }
-
+/*响应式布局*/
+@media screen and (max-width: 365px) {
+	.player {
+		width: 80px;
+		height: 80px;		
+	}
+	.vote-btn {
+		width: 16px;
+		height: 16px;
+	}
+	.vote-btn img {
+		max-height: 16px;
+	}
+	.player-number {
+		line-height: 20px;
+	}
+}
 
 
 
