@@ -1,6 +1,23 @@
+html{
+	font-size: 62.5%;
+}
 body {
 	background-color: #fafafa;
-	letter-spacing: 1px;
+	letter-spacing: 1px;	
+	font-size: 1.4rem;
+	font-family: Arial,"Times New Roman","Microsoft YaHei", SimSun, SimHei; 
+	-webkit-font-smoothing: antialiased; 
+}
+input, button, select, textarea, span {
+	outline: none;
+}
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+.container-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 .header {
@@ -14,7 +31,7 @@ body {
 	line-height: 48px;	
 	margin-bottom: 0;
 }
-.navbar-btn {
+.navbar-link {
 	position: relative;
 	float: left;
 	margin: 10px;
@@ -24,21 +41,30 @@ body {
 	background-color: transparent;
 	background-image: none;
 }
+.navbar-link img {
+	max-width: 25px;
+	margin: 0 auto;
+}
 
 
+.wrapper {
+	width: 100%;
+	position: absolute;
+	top: 50px;
+	z-index: 100;
+	text-align: center;
+	/*margin-bottom: 58px;*/
+}
+.last-game-tab {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
 .last-game, .game-title, .nav-tabs {
 	background-color: #ffffff;
 }
-.last-game-tab, .version-tab {
-	margin-top: 15px;
-	margin-bottom: 10px;
+.last-game, .version-wrapper {
 	border: 1px solid #e6e6e6;
 }
-li {
-	list-style: none;
-}
-
-
 .last-game {
 	text-align: center;
 	vertical-align: middle;
@@ -59,7 +85,6 @@ li {
 	max-height: 20px;
 }
 
-
 .game-title {
 	text-align: center;
 	vertical-align: middle;
@@ -75,7 +100,9 @@ li {
 	border-bottom: 2px solid #fde1ae;
 }
 
-
+.nav-tabs {
+	padding-bottom: 10px;
+}
 .nav-tabs li, .nav-tabs span {
 	width: 100%;
 	text-align: center;
@@ -95,13 +122,13 @@ li {
 	background-color: #69d1e9;
 	color: white;
 	width: 80%;
-	height: 4em;
+	height: 5.8rem;
 	text-align: center;
 	font-size: 16px;
 }
 #nav-tabs-link {
 	margin: 0 auto;
-	line-height: 42px;
+	line-height: 46px;
 }
 
 
@@ -119,15 +146,21 @@ li {
 
 
 .page-next {
+	display: inline-block;
 	width: 8%;
 	position: absolute;
-	right: 15px;
-	top: 47%;
-	line-height: 62px;
-	vertical-align: middle;
+	top: 43%;
+	right: 5%;
+	z-index: 9999;
+	line-height: 20px;
 	text-align: center;
+	vertical-align: middle;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 }
 .page-next img {
+	display: block;
+	position: relative;
 	max-height: 28px;
 	margin: 0 auto;
 }
