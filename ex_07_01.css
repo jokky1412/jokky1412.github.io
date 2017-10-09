@@ -20,7 +20,7 @@ input, button, select, textarea {
 	margin-bottom: 0;
 	min-height: 40px;
 }
-.navbar-btn {
+.navbar-link {
 	display: block;
 	position: relative;
 	margin: 0 auto;
@@ -30,7 +30,7 @@ input, button, select, textarea {
 	background-image: none;
 	line-height: 20px;	
 }
-.navbar-btn img {
+.navbar-link img {
 	max-width: 25px;
 	margin: 0 auto;
 }

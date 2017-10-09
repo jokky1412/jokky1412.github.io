@@ -13,22 +13,16 @@
 </head>
 <body>
 	<div class="header navbar-fixed-top">
-		<div class="navbar container">
-			<div class="row">
-				<button type="button" class="navbar-btn page-menu" 
-				onclick="{location.href="#"}" >
-					<span class="sr-only">切换导航</span>
-					<img src="./Pic/task7/votepage/vote-menu.png">
-				</button>
-				<button type="button" class="navbar-btn page-close"
-				onclick="{location.href="#"}" >
-					<span></span>
-					<img src="./Pic/task7/votepage/vote-close.png">
-				</button>
-				<div class="page-title">
-					<span>投票</span>
-				</div>				
-			</div>
+		<div class="navbar container-fluid">
+			<a class="navbar-link page-menu" href="#">
+				<img src="./Pic/task7/votepage/vote-menu.png">
+			</a>
+			<a class="navbar-link page-close" href="ex_07_00.html">
+				<img src="./Pic/task7/votepage/vote-close.png">
+			</a>
+			<div class="page-title">
+				<span>投票</span>
+			</div>				
 		</div>
 	</div>
 
@@ -366,10 +360,10 @@
 	</div>
 	
 	<div class="footer navbar-fixed-bottom">
-		<div class="footer container">
+		<div class="footer container-fluid">
 			<div class="row">
 				<div class="col-md-12">
-					<button type="button" class="navbar-btn vote" 
+					<button type="button" class="navbar-link vote" 
 					onclick="{location.href="#"}" >
 						<span>投死</span>
 					</button>
