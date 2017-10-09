@@ -9,6 +9,13 @@ body {
 input, button, select, textarea, span {
 	outline: none;
 }
+a {
+	text-align: center;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
 .row {
 	margin-left: 0;
 	margin-right: 0;
@@ -181,7 +188,7 @@ input, button, select, textarea, span {
 	background-color: #fbb435;
 	margin-right: 8px;
 }
-.footer button {
+.footer a {
 	display: block;
 	position: relative;
 	color: white;

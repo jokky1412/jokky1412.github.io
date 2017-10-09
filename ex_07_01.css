@@ -6,7 +6,13 @@
 input, button, select, textarea {
 	outline:none;
 }
-
+a {
+	text-align: center;
+	text-decoration: none;	
+}
+a:hover {
+	text-decoration: none;
+}
 .header {
 	width: 100%;
 }
@@ -210,11 +216,10 @@ input, button, select, textarea {
 	width: 100%;
 	background-color: #29bde0;
 }
-.footer button {
+.footer a {
 	width: 85%;
 	margin: 18px auto 6px auto;
 	background-color: #fbb435;
-	text-align: center;
 }
 .vote span {
 	font-size: 20px;
