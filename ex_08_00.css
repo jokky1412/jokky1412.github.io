@@ -1,0 +1,88 @@
+.header {
+	line-height: 40px;
+}
+.header-tel {
+	color: #56a087;
+	line-height: 40px;
+}
+.header-login {
+	float: right;
+	margin-top: 8px;
+	margin-left: 15px;
+	height: 24px;
+	width: 24px;
+	background-size: 100%;
+	display: inline-block;
+}
+.login-wx {
+	background: url(./Pic/task8/header/weixin.jpg) no-repeat center;
+}
+.login-qq {
+	background: url(./Pic/task8/header/qq.jpg) no-repeat center;
+}
+.login-wb {
+	background: url(./Pic/task8/header/weibo.jpg) no-repeat center;
+}
+
+.header-nav-wrap {
+	height: 100px;
+}
+.navbar {
+	background-color: #29b078;
+}
+.navbar-wrap {
+	padding-right: 30px;
+	height: 100px;
+}
+.navbar ul {
+	float: right;
+	margin: 0 0px 0 0;
+	padding: 0;
+	list-style: none;
+}
+.navbar li {
+	list-style: none;
+	vertical-align: middle;
+	padding: 0;
+	float: left;
+}
+.navbar-nav>li>a {
+	line-height: 80px;
+}
+.navbar a {
+	display: block;
+	
+	height: 100px;
+	padding: 0 30px;
+	
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	text-decoration: none;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+span,h1,h2,h3,h4,h5  {
+-webkit-touch-callout: none; /* iOS Safari */
+-webkit-user-select: none; /* Chrome/Safari/Opera */
+-khtml-user-select: none; /* Konqueror */
+-moz-user-select: none; /* Firefox */
+-ms-user-select: none; /* Internet Explorer/Edge */
+user-select: none; /* Non-prefixed version, currently
+not supported by any browser */
+}
