@@ -2,6 +2,7 @@ body {
     font-family: Arial, "Times New Roman", "Microsoft YaHei", 
     			SimSun, SimHei;
     -webkit-font-smoothing: antialiased;
+    background-color: #fafafa;
 }
 p {
 	letter-spacing: 1px;
@@ -97,9 +98,6 @@ p {
 }
 
 
-.overview {
-	/*text-align: center;*/
-}
 .home-tag, .stats {
 	margin-left: 50px;
 }
@@ -134,8 +132,6 @@ p {
 	background-size: 1px 264px;
 	display: inline-block;
 }
-
-
 .stats {
 	margin: 30px auto 0 auto;
 	text-align: center;
@@ -167,14 +163,58 @@ p {
 }
 
 
-
-
-
-
-
-
-
-
+.steps {
+	text-align: center;
+}
+.steps-num {
+	display: inline-block;
+	text-align: center;
+	line-height: 75px;
+	position: relative;
+	width: 75px;
+	height: 75px;
+	background: url(./Pic/task8/steps/ellipse.png) 
+				center center no-repeat;
+	background-size: 75px 75px;
+}
+.steps-intro {
+	display: inline-block;
+	position: relative;
+	height: 75px;
+	vertical-align: middle;
+	line-height: 40px;
+	margin-left: 5px;
+}
+.steps-intro p {
+	display: block;
+	position: relative;
+	width: 150px;
+	height: 20px;
+	text-align: left;
+	margin: 5px auto;
+	font-size: 13px;
+}
+.steps-next {
+	display: inline-block;
+	text-align: center;
+	line-height: 75px;
+	position: relative;
+	margin: 0 auto;
+	vertical-align: middle;
+/*	position: absolute;
+	top: 30%;
+	right: -2rem;*/
+	width: 75px;
+	height: 75px;
+	background: url(./Pic/task8/steps/triangle-next.jpg) 
+				center center no-repeat;
+	background-size: 30px 26px;
+}
+.steps-next-help {
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
 
 
 img,span,h1,h2,h3,h4,h5  {
