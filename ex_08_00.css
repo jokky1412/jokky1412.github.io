@@ -1,3 +1,12 @@
+body {
+    font-family: Arial, "Times New Roman", "Microsoft YaHei", 
+    			SimSun, SimHei;
+    -webkit-font-smoothing: antialiased;
+}
+p {
+	letter-spacing: 1px;
+}
+
 .header {
 	line-height: 40px;
 }
@@ -63,6 +72,99 @@
 	font-weight: bold;
 }
 
+.banner {
+	padding: 0;
+	margin: 0;
+}
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+.col-md-12 {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+/*轮播*/
+.carousel-inner img {
+	max-height: 550px;
+}
+/*轮播标志*/
+.carousel>.carousel-indicators>li {
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 30px;
+}
+
+
+.overview {
+	/*text-align: center;*/
+}
+.home-tag, .stats {
+	margin-left: 50px;
+}
+.home-tag {
+	padding: 50px 0 50px 0;
+	text-align: center;
+	vertical-align: middle;
+}
+.home-tag-icon {
+	height: 62px;
+}
+.home-tag img {
+	max-height: 62px;
+}
+.home-tag p {
+	margin: 0 auto;
+	padding-top: 5px;
+	width: 220px;
+	text-align: left;
+	font-size: 15px;
+	color: #999999;
+}
+
+
+.overview-split-line {
+	float: left;
+	padding-left: 50px;
+	width: 1px;
+	height: 260px;
+	position: relative;
+	background: url(./Pic/task8/overview/splitline.png) center no-repeat;
+	background-size: 1px 264px;
+	display: inline-block;
+}
+
+
+.stats {
+	margin: 30px auto 0 auto;
+	text-align: center;
+	width: 300px;
+	padding: 50px 0 50px 0;
+}
+.stats-box {
+	width: 180px;
+	margin: 0 auto 5px auto;
+	text-align: left;
+}
+.stats-box-icon {
+	display: inline-block;
+	position: relative;
+	width: 15px;
+	height: 13px;
+	background: url(./Pic/task8/overview/avatar_small.jpg) 
+				center center no-repeat;
+	background-size: 15px 13px;
+}
+.stats-box-value {
+	display: inline-block;
+	font-size: 18px;
+	padding-left: 12px;
+}
+.stats-box-intro {
+	display: inline-block;
+	font-size: 16px;
+}
 
 
 
@@ -75,9 +177,7 @@
 
 
 
-
-
-span,h1,h2,h3,h4,h5  {
+img,span,h1,h2,h3,h4,h5  {
 -webkit-touch-callout: none; /* iOS Safari */
 -webkit-user-select: none; /* Chrome/Safari/Opera */
 -khtml-user-select: none; /* Konqueror */

@@ -7,8 +7,10 @@
 									maximum-sacle=1.0,
 									user-scalable=no">
 	<link rel="stylesheet" type="text/css" 
-	href="./bootstrap/3.3.7/css/bootstrap.min.css">			
-	<link rel="stylesheet" type="text/css" href="ex_08_00.css">			
+	href="./bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="ex_08_00.css">		
+	<script src="./bootstrap/3.3.7/jquery/2.1.1/jquery.min.js"></script>
+	<script src="./bootstrap/3.3.7/js/bootstrap.min.js"></script>	
 	<title>技能树首页</title>
 </head>
 <body>
@@ -44,5 +46,102 @@
 		</div>
 	</header>
 
+<div class="wrapper">
+	<!-- 轮播开始 -->
+	<div class="container-fluid banner">
+		<div class="row">
+			<div class="col-md-12">
+				<div id="myCarousel" class="carousel slide">
+					<!-- 轮播（Carousel）指标 -->
+					<!-- header必须有jQuery才能使轮播指标动作 -->
+					<ol class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" 
+						class="active"></li>
+						<li data-target="#myCarousel" data-slide-to="1"></li>
+						<li data-target="#myCarousel" data-slide-to="2"></li>
+					</ol>   
+					<!-- 轮播（Carousel）项目 -->
+					<div class="carousel-inner">
+						<div class="item active">
+							<img src="./Pic/task8/banner/banner-top.png"
+							 alt="First slide">
+						</div>
+						<div class="item">
+							<img src="./Pic/task8/banner/banner-top.png"
+							 alt="Second slide">
+						</div>
+						<div class="item">
+							<img src="./Pic/task8/banner/banner-top.png"
+							alt="Thrid slide">
+						</div>
+					</div>
+					<!-- 轮播（Carousel）导航 -->
+					<a class="carousel-control left" href="#myCarousel" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left"></span>
+					</a>
+					<a class="carousel-control right" href="#myCarousel" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right"></span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 轮播结束 -->
+	<!-- 轮播下的大图标开始 -->
+	<div class="container overview">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="home-tag">
+					<div class="home-tag-icon">
+						<img src="./Pic/task8/overview/rocket.jpg">
+					</div>
+					<h4>高效</h4>
+					<p>将五到七年的成长时间，缩短到一年至三年。</p>
+				</div>
+			</div>
+			<!-- 第一个结束 -->
+			<div class="col-md-3">
+				<div class="home-tag">
+					<div class="home-tag-icon">
+						<img src="./Pic/task8/overview/books.jpg">
+					</div>
+					<h4>规范</h4>
+					<p>标准的实战教程，不会走弯路。</p>
+				</div>
+			</div>
+			<!-- 第二个结束 -->
+			<div class="col-md-3">
+				<div class="home-tag">
+					<div class="home-tag-icon">
+						<img src="./Pic/task8/overview/networking.jpg">
+					</div>
+					<h4>人脉</h4>
+					<p style="width: 240px;">
+					同班好友，同院学长，技术大师，</p>
+					<p style="width: 238px;">入学就混入职脉圈，为以后铺平道路。</p>
+				</div>
+			</div>
+			<!-- 第三个结束 -->
+			<div class="col-md-3">
+				<div class="stats">
+					<!-- 分割线 -->
+					<i class="overview-split-line"></i>	
+					<div class="stats-box">
+						<i class="stats-box-icon"></i>
+						<p class="stats-box-value">12400</p>
+						<p class="stats-box-intro">累计在线学习人数</p>
+					</div>
+					<div class="stats-box">
+						<i class="stats-box-icon"></i>
+						<p class="stats-box-value">12400</p>
+						<p class="stats-box-intro">学员已找到满意工作</p>
+					</div>
+				</div>
+			</div>
+			<!-- 人数统计结束 -->
+		</div>
+	</div>
+	<!-- 轮播下的大图标结束 -->
+</div>
 </body>
 </html>
