@@ -7,6 +7,9 @@ body {
 p {
 	letter-spacing: 1px;
 }
+h4 {
+	text-align: center;
+}
 
 .header {
 	line-height: 40px;
@@ -163,49 +166,60 @@ p {
 }
 
 
-.steps {
+.steps>.row{
 	text-align: center;
+	padding-left: 68px;
+	padding-right: 10px;
+}
+.steps-col {
+	padding-left: 0;
+	padding-right: 0;
+}
+.steps-end {
+	max-width: 220px;
 }
 .steps-num {
 	display: inline-block;
 	text-align: center;
-	line-height: 75px;
+	line-height: 55px;
 	position: relative;
-	width: 75px;
-	height: 75px;
+	width: 55px;
+	height: 55px;
 	background: url(./Pic/task8/steps/ellipse.png) 
 				center center no-repeat;
-	background-size: 75px 75px;
+	background-size: 55px 55px;
+}
+.steps-num p { 
+	color: #29b078; 
 }
 .steps-intro {
 	display: inline-block;
 	position: relative;
-	height: 75px;
+	height: 55px;
 	vertical-align: middle;
-	line-height: 40px;
+	line-height: 55px;
 	margin-left: 5px;
 }
-.steps-intro p {
-	display: block;
+.steps-intro span {
+	display: table-cell;	/*内部文字居中*/
 	position: relative;
-	width: 150px;
-	height: 20px;
+	width: 145px;
+	height: 55px;
 	text-align: left;
-	margin: 5px auto;
+	vertical-align: middle;
+	margin: 0 auto;
 	font-size: 13px;
+	line-height: 22px;	
 }
 .steps-next {
 	display: inline-block;
 	text-align: center;
-	line-height: 75px;
+	line-height: 50px;
 	position: relative;
 	margin: 0 auto;
 	vertical-align: middle;
-/*	position: absolute;
-	top: 30%;
-	right: -2rem;*/
-	width: 75px;
-	height: 75px;
+	width: 45px;
+	height: 45px;
 	background: url(./Pic/task8/steps/triangle-next.jpg) 
 				center center no-repeat;
 	background-size: 30px 26px;
