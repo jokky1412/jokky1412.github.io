@@ -172,11 +172,11 @@ h4 {
 	padding-right: 10px;
 }
 .steps-col {
-	padding-left: 0;
-	padding-right: 0;
+	padding: 40px 0 50px 0;
+	min-width: 216px;
 }
 .steps-end {
-	max-width: 220px;
+	/*max-width: 220px;*/
 }
 .steps-num {
 	display: inline-block;
@@ -228,6 +228,47 @@ h4 {
 	display: inline-block;
 	height: 100%;
 	vertical-align: middle;
+}
+
+
+
+.trainee>.row {
+	text-align: center;
+	padding-left: 60px;
+	padding-right: 40px;
+}
+.trainee h4 {
+	padding-top: 40px;
+	padding-bottom: 50px;
+}
+.trainee-block {
+
+}
+.trainee-section {
+	width: 90%;
+	background-color: #FFFFFF;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.trainee-avatar {
+	margin: 0 auto;
+	padding: 10px 0 0 0;
+	border-radius: 50%;
+}
+.trainee-avatar img {
+	max-width: 90px;
+}
+.trainee-section span {
+	display: block;
+	padding: 25px 0 25px 0;
+	font-size: 16px;
+}
+.trainee-section p {
+	margin: 0 auto;
+	width: 88%;
+	text-align: left;
+	padding-bottom: 30px;
+	line-height: 25px;
 }
 
 
