@@ -9,6 +9,8 @@ p {
 }
 h4 {
 	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 50px;	
 }
 
 .header {
@@ -237,10 +239,6 @@ h4 {
 	padding-left: 60px;
 	padding-right: 40px;
 }
-.trainee h4, .enterprise h4 {
-	padding-top: 40px;
-	padding-bottom: 50px;
-}
 .trainee-section {
 	width: 90%;
 	background-color: #FFFFFF;
@@ -267,7 +265,6 @@ h4 {
 	padding-bottom: 30px;
 	line-height: 25px;
 }
-
 
 
 
@@ -305,6 +302,40 @@ h4 {
 	display: inline-block;
 	width: 200px;
 }
+
+
+.links {
+	width: 100%;
+	padding: 0 0 10px 0;
+	background-color: #FFFFFF;
+}
+.links>.row {
+	width: 100%;
+	text-align: center;
+}
+.links h4 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.links-block {
+	margin: 0 auto;
+}
+.links-block a {
+	text-decoration: none;
+	color: #000000;
+}
+.links-block li {
+	width: 80px;
+	margin: 0 5px;
+	display: inline-block;
+	list-style-type: disc;
+}
+.links-block li:before {
+	content:'\ffed'; 
+	margin-right:0.5em;
+}
+
+
 
 
 
