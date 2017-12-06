@@ -237,12 +237,9 @@ h4 {
 	padding-left: 60px;
 	padding-right: 40px;
 }
-.trainee h4 {
+.trainee h4, .enterprise h4 {
 	padding-top: 40px;
 	padding-bottom: 50px;
-}
-.trainee-block {
-
 }
 .trainee-section {
 	width: 90%;
@@ -270,6 +267,46 @@ h4 {
 	padding-bottom: 30px;
 	line-height: 25px;
 }
+
+
+
+
+.enterprise {
+	width: 100%;
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+	padding-bottom: 70px;
+}
+.enterprise>.row {
+	position: relative;
+	width: 100%;
+	text-align: center;
+	padding-left: 250px;
+	padding-right: 280px;	
+}
+.enterprise-section {
+	position: relative;
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+}
+.enterprise-block {
+	text-align: center;
+	position: relative;
+	display: inline-block;
+	margin: 0 auto;
+	width: 20%;
+}
+.enterprise-img {
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+	display: inline-block;
+	width: 200px;
+}
+
+
 
 
 img,span,h1,h2,h3,h4,h5  {
