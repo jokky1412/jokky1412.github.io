@@ -12,6 +12,9 @@ h4 {
 	padding-top: 40px;
 	padding-bottom: 50px;	
 }
+a {
+	cursor: pointer;
+}
 
 .header {
 	line-height: 40px;
@@ -279,8 +282,8 @@ h4 {
 	position: relative;
 	width: 100%;
 	text-align: center;
-	padding-left: 250px;
-	padding-right: 280px;	
+	padding-left: 90px;
+	padding-right: 90px;	
 }
 .enterprise-section {
 	position: relative;
@@ -373,7 +376,7 @@ h4 {
 }
 
 
-img,span,h1,h2,h3,h4,h5  {
+img,span,h1,h2,h3,h4,h5,a {
 -webkit-touch-callout: none; /* iOS Safari */
 -webkit-user-select: none; /* Chrome/Safari/Opera */
 -khtml-user-select: none; /* Konqueror */
