@@ -84,24 +84,123 @@ a {
 
 
 
-.banner img {
+.coop-banner img {
 	width: 100%;
 	height: auto;
+}
+.coop-content-title {
+	text-align: left;
+}
+.coop-content-subtitle {
+	color: #29b078;
+}
+
+
+.coop-content-catalog {
+	float: left;
+	background-color: #FFFFFF;
+
+}
+.coop-content-catalog-title {
+	text-align: center;
+	padding: 0px 20px 0px 20px;
+}
+.coop-content-catalog-title h4 {
+	margin: 0 auto;
+	min-width: 120px;
+}
+.catalog-split-line {
+	height: 3px;
+	background-color: #fafafa;
+}
+.coop-content-catalog ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	min-width: 120px;
+}
+.coop-content-catalog li {
+	color: #56a087;
+	/*list-style-type: circle;*/
+	background:url(./Pic/task8/recommand/empty.png) no-repeat center;
+	background-size: 14px 14px;
+	background-position: 0px 14px;
+	padding: 10px 10px 10px 20px;
+	margin-left: 20px;
+}
+
+
+
+.coop-content-detail {
+	background-color: #FFFFFF;
+	margin-left: 10px;
+	/*position: relative;*/
+}
+.coop-content-detail-overview-banner {
+	display: inline-block;
+	float: left;
+	/*position: relative;*/
+}
+.coop-content-detail-overview-banner img {
+	max-width: 200px;
+}
+.coop-content-detail-overview-text {
+	width: 50%;
+	height: 150px;
+	display: table-cell;
+	vertical-align: middle;
+}
+.coop-content-detail-overview-text p {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 auto;
+	line-height: 30px;
+}
+.coop-content-detail-text {
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	text-indent: 2em;
 }
 
 
 
 
+.footer {
+	text-align: left;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #29b078;
+}
+.about {
+	padding-left: 100px;
+}
+.footer a {
+	color: white;
+}
+.footer-lead {
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+.footer p {
+	display: block;
+}
+.footer img {
+	width: 90px;
+}
 
 
-
-
-
-
-
-
-
-
+.copyright {
+	color: #FFFFFF;
+	background-color: #29b078;
+	text-align: center;
+	border-top: 0.1rem solid #32c086;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 12px;
+}
 
 
 span,h1,h2,h3,h4,h5,a {
