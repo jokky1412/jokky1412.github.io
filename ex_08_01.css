@@ -7,10 +7,10 @@ body {
 p {
 	letter-spacing: 1px;
 }
-h4 {
+h5 {
 	text-align: center;
-	padding-top: 40px;
-	padding-bottom: 50px;	
+	padding-top: 20px;
+	padding-bottom: 10px;	
 }
 a {
 	cursor: pointer;
@@ -51,7 +51,7 @@ a {
 	background-color: #29b078;
 }
 .navbar-wrap {
-	padding-right: 30px;
+	/*padding-right: 30px;*/
 	height: 100px;
 }
 .navbar ul {
@@ -83,10 +83,16 @@ a {
 
 
 
-
+.coop-banner {
+	margin: 0;
+	padding: 0;
+}
 .coop-banner img {
 	width: 100%;
 	height: auto;
+}
+.coop-content {
+	padding-left: 130px;
 }
 .coop-content-title {
 	text-align: left;
@@ -97,43 +103,57 @@ a {
 
 
 .coop-content-catalog {
+	height: auto;
 	float: left;
 	background-color: #FFFFFF;
-
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
 }
 .coop-content-catalog-title {
+	width: 100%;
 	text-align: center;
 	padding: 0px 20px 0px 20px;
+	border-bottom: 1px solid #fafafa;
 }
 .coop-content-catalog-title h4 {
 	margin: 0 auto;
 	min-width: 120px;
 }
 .catalog-split-line {
+	width: 100%;
 	height: 3px;
 	background-color: #fafafa;
 }
+.coop-content-catalog a {
+	color: #29b078;
+	text-decoration: none;
+}
 .coop-content-catalog ul {
 	list-style: none;
-	padding: 0px;
+	padding: 10px 10px;
 	margin: 0px;
-	min-width: 120px;
+	position: relative;
+	min-width: 130px;
+	text-align: center;
 }
 .coop-content-catalog li {
-	color: #56a087;
+	width: 50%;
 	/*list-style-type: circle;*/
 	background:url(./Pic/task8/recommand/empty.png) no-repeat center;
 	background-size: 14px 14px;
 	background-position: 0px 14px;
-	padding: 10px 10px 10px 20px;
-	margin-left: 20px;
+	padding: 10px 0px 30px 20px;
+	margin: 0 auto;
+	position: relative;
+	text-align: left;
 }
 
 
 
 .coop-content-detail {
 	background-color: #FFFFFF;
-	margin-left: 10px;
+	margin-left: 2em;
 	/*position: relative;*/
 }
 .coop-content-detail-overview-banner {
@@ -167,6 +187,7 @@ a {
 
 
 .footer {
+	margin-top: 100px;
 	text-align: left;
 	color: #FFFFFF;
 	text-decoration: none;
@@ -203,7 +224,7 @@ a {
 }
 
 
-span,h1,h2,h3,h4,h5,a {
+span,h1,h2,h3,h4,h5 {
 -webkit-touch-callout: none; /* iOS Safari */
 -webkit-user-select: none; /* Chrome/Safari/Opera */
 -khtml-user-select: none; /* Konqueror */
