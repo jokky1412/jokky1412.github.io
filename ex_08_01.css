@@ -120,7 +120,7 @@ a {
 	float: left;
 	background-color: #FFFFFF;
 	/*padding-bottom: 20px;*/
-	width: 300px;
+	width: 305px;
 }
 .coop-content-catalog-title {
 	display: block;
@@ -139,18 +139,52 @@ a {
 	padding: 0;
 	margin-bottom: 20px;
 	background-color: #fafafa;
-	/*background-color: red;*/
+}
+.coop-content-catalog label {
+	width: 100%;
+	padding-left: 34px;
+	color: #29b078;
+}
+/*伪元素的样式：橙色圆形框*/
+.coop-content-catalog input[type="radio"] + label::before {
+	content: "\a0"; /*不换行空格*/
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 18px;
+	width: .6em;
+	height: .6em;
+    margin-right: .3em;
+	border-radius: 50%;
+	border: 1px solid #ff6400;
+	}
+/*勾选状态样式：对圆形框填充相同颜色*/
+.coop-content-catalog input[type="radio"]:checked + label::before {
+	background-color: #ff6400;
+	background-clip: content-box;	/*规定背景的绘制区域：背景被裁剪到内容框*/
+	}
+/*隐藏单选按钮：剪切掉*/
+.coop-content-catalog input[type="radio"] {
+	position: absolute;
+	clip: rect(0, 0, 0, 0);
+	}
+/*勾选状态，label文字颜色*/
+.coop-content-catalog input[type="radio"]:checked + label {
+	color: #ff6400;
 }
 .coop-content-catalog a {
+	width: 80px;
+	height: 20px;
+	margin: 0 0 0 0px;
+	display: inline-block;
 	color: #29b078;
+	text-align: left;
+	vertical-align: middle;
 	text-decoration: none;
-	width: auto;
-	height: 15px;
 }
 .coop-content-catalog ul {
 	list-style: none;
 	padding: 10px 10px;
-	margin: 0px;
+	margin: 0 auto;
 	position: relative;
 	min-width: 130px;
 	text-align: center;
@@ -158,15 +192,16 @@ a {
 .coop-content-catalog li {
 	width: 50%;
 	/*list-style-type: circle;*/
-	background:url(./Pic/task8/recommand/empty.png) no-repeat center center;
+/*	background:url(./Pic/task8/recommand/empty.png) no-repeat center center;
 	background-size: 14px 14px;
-	background-position: 0px 14px;
-	padding: 10px 0px 20px 20px;
-	margin: 0 25% 0 auto;
+	background-position: 0px 50%;*/
+	display: inline-block;
+	padding: 20px 0px;
+	margin: 0 auto;
 	position: relative;
-	text-align: left;
 	font-size: 14px;
 	font-weight: bold;
+	text-align: left;
 }
 
 
