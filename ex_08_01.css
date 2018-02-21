@@ -101,7 +101,9 @@ a {
 	height: auto;
 }
 .coop-content {
-	
+	margin: 0 350px;
+	max-width: 1200px;
+	padding: 0;
 }
 .coop-content-title {
 	text-align: left;
@@ -208,8 +210,12 @@ a {
 
 .coop-content-detail {
 	background-color: #FFFFFF;
-	margin-left: 2em;
-	/*position: relative;*/
+	margin-left: 25px;
+	padding: 0;
+	max-width: 870px;
+}
+.coop-content-detail-overview {
+	padding: 3px 0;
 }
 .coop-content-detail-overview-banner {
 	display: inline-block;
@@ -217,11 +223,12 @@ a {
 	/*position: relative;*/
 }
 .coop-content-detail-overview-banner img {
-	max-width: 200px;
+	max-width: 230px;
+
 }
 .coop-content-detail-overview-text {
-	width: 50%;
-	height: 150px;
+	height: 156px;
+	padding: 0 35px;
 	display: table-cell;
 	vertical-align: middle;
 }
