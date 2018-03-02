@@ -5,7 +5,7 @@ body {
     background-color: #fafafa;
 }
 p {
-	letter-spacing: 1px;
+	/*letter-spacing: 1px;*/
 }
 h5 {
 	text-align: center;
@@ -228,7 +228,7 @@ a {
 }
 .coop-content-detail-overview-text {
 	height: 156px;
-	padding: 0 35px;
+	padding: 0 52px;
 	display: table-cell;
 	vertical-align: middle;
 }
@@ -237,15 +237,22 @@ a {
 	vertical-align: middle;
 	margin: 0 auto;
 	line-height: 30px;
+	color: grey;
 }
 .coop-content-detail-text {
 	padding-top: 20px;
-	padding-left: 50px;
-	padding-right: 50px;
+	padding-left: 60px;
+	padding-right: 70px;
 	text-indent: 2em;
 	height: 945px;
 }
-
+.coop-content-detail-text p {
+	line-height: 30px;
+	padding: 0 0px 45px 0px;
+	font-family: "Microsoft YaHei";
+	font-size: 14px;
+	color: grey;
+}
 
 
 
