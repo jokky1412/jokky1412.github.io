@@ -21,13 +21,13 @@ a {
 .header-tel {
 	color: #56a087;
 	line-height: 40px;
-	margin-left: 100px;
 }
 .header-login {
-	margin-right: 100px;
+	height: 40px;
+	float: right;
+	margin-right: -50px;
 }
 .header-login-img {
-	float: right;
 	margin-top: 8px;
 	margin-left: 15px;
 	height: 24px;
@@ -56,11 +56,12 @@ a {
 }
 .navbar-header {
 	margin-top: 10px;
-	margin-left: 120px;
+}
+.navbar-collapse {
+	margin-right: -50px;
 }
 .navbar-collapse ul {
 	float: right;
-	margin: 0 70px 0 0;
 	padding: 0;
 	list-style: none;
 }
@@ -71,21 +72,24 @@ a {
 	float: left;
 }
 .navbar-nav>li>a {
-	line-height: 80px;
-	color: white;
-}
-.navbar-collapse a {
 	display: block;
+	padding: 0;
 	height: 100px;
-	padding: 0 30px;
+	line-height: 100px;
+	color: white;
 	text-align: center;
 	color: #fff;
 	font-size: 16px;
 	text-decoration: none;
 	cursor: pointer;
-	font-weight: bold;
+	font-weight: 600;
 }
-
+.navbar-collapse>.navbar-nav>li {
+	padding: 0 32px;
+}
+.navbar-nav>li:last-child {
+	padding: 0 0 0 32px;
+}
 
 
 .coop-banner {
@@ -98,21 +102,22 @@ a {
 	height: auto;
 }
 .coop-content {
-	margin: 0 350px;
-	max-width: 1200px;
+	width: 1200px;
 	padding: 0;
 }
 .coop-content-title {
 	text-align: left;
 	font-size: 16px;
+	margin-left: 5px;
+}
+.coop-content-wrapper {
+	margin-left: 15px;
 }
 .coop-content-subtitle {
 	color: #29b078;
 	font-weight: bold;
 	font-size: 16px;
 }
-
-
 .coop-content-catalog {
 	height: auto;
 	padding: 0;
