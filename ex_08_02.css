@@ -92,6 +92,22 @@ a {
 }
 
 
+.menu {
+	padding-top: 30px;
+}
+.menu a {
+	font-size: 18px;
+	text-decoration: none;
+}
+.path-left>a:first-child {
+	color: #000;
+}
+.path-left>a:nth-child(2) {
+	color: #29b078;
+}
+
+
+
 
 
 
