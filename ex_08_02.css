@@ -143,6 +143,50 @@ a {
 	text-decoration: none;
 }
 
+.job-wrapper {
+	background-color: #fafafa;
+}
+.job-branch-title {
+	font-size: 16px;
+	font-weight: bold;
+	padding: 30px 0;
+	border-bottom: 1px solid #d0d6d9;
+}
+.job-branch-content {
+	margin-top: 45px;
+	background-color: #fafafa;
+}
+.j-box {
+	display: flex;
+	width: 385px;
+	padding: 20px 0 15px 0;
+	background-color: #fff;
+}
+.j-avatar {
+	padding: 0;
+	margin-left: 12px;
+	height: 140px;
+	width: 140px;
+	background: url(./Pic/task8/jobs/job-avatar.png) no-repeat;
+	background-size: 140px 140px;
+}
+.j-info {
+	max-width: 60%;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+.j-name {
+	padding-top: 15px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.j-desp {
+	padding-top: 15px;
+	font-size: 14px;
+	color: #000;
+	line-height: 20px;
+}
+
 
 
 .footer {
