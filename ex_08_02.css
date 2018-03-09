@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, "Times New Roman", "Microsoft YaHei", 
+    			SimSun, SimHei;
+    -webkit-font-smoothing: antialiased;
+    background-color: #fafafa;
+}
+h5 {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 10px;	
+}
+a {
+	cursor: pointer;
+}
+
+
+
+.header {
+	line-height: 40px;
+}
+.header-tel {
+	color: #56a087;
+	line-height: 40px;
+}
+.header-login {
+	height: 40px;
+	float: right;
+	margin-right: -50px;
+}
+.header-login-img {
+	margin-top: 8px;
+	margin-left: 15px;
+	height: 24px;
+	width: 24px;
+	background-size: 100%;
+	display: inline-block;
+}
+.login-wx {
+	background: url(./Pic/task8/header/weixin.jpg) no-repeat center;
+}
+.login-qq {
+	background: url(./Pic/task8/header/qq.jpg) no-repeat center;
+}
+.login-wb {
+	background: url(./Pic/task8/header/weibo.jpg) no-repeat center;
+}
+
+.header-nav-wrap {
+	height: 100px;
+}
+.nav, .navbar {
+	background-color: #29b078;
+}
+.navbar {
+	border: none;
+}
+.navbar-header {
+	margin-top: 10px;
+}
+.navbar-collapse {
+	margin-right: -50px;
+}
+.navbar-collapse ul {
+	float: right;
+	padding: 0;
+	list-style: none;
+}
+.navbar-collapse li {
+	list-style: none;
+	vertical-align: middle;
+	padding: 0;
+	float: left;
+}
+.navbar-nav>li>a {
+	display: block;
+	padding: 0;
+	height: 100px;
+	line-height: 100px;
+	color: white;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	text-decoration: none;
+	cursor: pointer;
+	font-weight: 600;
+}
+.navbar-collapse>.navbar-nav>li {
+	padding: 0 32px;
+}
+.navbar-nav>li:last-child {
+	padding: 0 0 0 32px;
+}
+
+
+
+
+
+
+
+.footer {
+	margin-top: 230px;
+	padding: 20px 0 35px 0;
+	text-align: left;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #29b078;
+}
+.about .lead {
+	padding-bottom: 40px;
+}
+.qrcode {
+	text-align: center;
+}
+.website {
+}
+.website p {
+	padding-left: 60px;
+	padding-bottom: 5px;
+}
+.website a {
+	padding-right: 30px;
+}
+.footer a {
+	color: white;
+}
+.footer .lead {
+	margin-top: 20px;
+	font-size: 16px;
+}
+.footer p {
+	display: block;
+}
+.footer img {
+	width: 92px;
+}
+
+
+.copyright {
+	color: #FFFFFF;
+	background-color: #29b078;
+	text-align: center;
+	border-top: 0.1rem solid #32c086;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 12px;
+}
+
+
+span,h1,h2,h3,h4,h5 {
+-webkit-touch-callout: none; /* iOS Safari */
+-webkit-user-select: none; /* Chrome/Safari/Opera */
+-khtml-user-select: none; /* Konqueror */
+-moz-user-select: none; /* Firefox */
+-ms-user-select: none; /* Internet Explorer/Edge */
+user-select: none; /* Non-prefixed version, currently
+not supported by any browser */
+}
