@@ -157,10 +157,10 @@ a {
 	background-color: #fafafa;
 }
 .j-box {
-	display: flex;
 	width: 385px;
 	padding: 20px 0 15px 0;
 	background-color: #fff;
+	border: 1px solid #d0d6d9;
 }
 .j-avatar {
 	padding: 0;
@@ -169,8 +169,11 @@ a {
 	width: 140px;
 	background: url(./Pic/task8/jobs/job-avatar.png) no-repeat;
 	background-size: 140px 140px;
+	float: left;
+	display: inline-block;
 }
 .j-info {
+	display: inline-block;
 	max-width: 60%;
 	padding-left: 8px;
 	padding-right: 8px;
@@ -186,6 +189,69 @@ a {
 	color: #000;
 	line-height: 20px;
 }
+
+.j-profile-basic {
+	display: block;
+	margin-top: 15px;
+	font-size: 12px;
+	border-bottom: 1px solid #d0d6d9;
+}
+.j-profile-basic p {
+	float: left;
+	margin: 0;
+	border-top: 1px solid #d0d6d9;
+	vertical-align: middle;
+	position: relative;
+}
+.j-profile-basic p:nth-last-child(even) {
+	border-right: 1px solid #d0d6d9;
+}
+.j-profile-blk {
+	width: 50%;
+	height: 40px;
+	line-height: 20px;
+}
+.profile-attitude {
+	display: inline-block;
+	padding: 10px 12px;
+}
+.profile-value-star {
+	display: inline-block;
+	width: 16px;
+	height: 15px;
+	background: url(./Pic/task8/jobs/star.png) no-repeat;
+	background-size: 16px 15px;
+}
+.threshold,.difficulty {display: flex;align-items: center;}
+/*使用元素选择器*/
+/*.threshold i:not(:nth-child(2)) {
+	visibility: hidden;
+}
+}*/
+.threshold i, .difficulty i {
+	visibility: hidden;
+}
+.threshold i:nth-child(2) {
+	visibility: visible;
+}
+.difficulty i:nth-child(2),.difficulty i:nth-child(3) {
+	visibility: visible;
+}
+.j-profile-salary-attr {
+	width: 40%;
+	height: 100px;
+    line-height: 100px;	
+	text-align: center;
+	vertical-align: middle;
+}
+.j-profile-salary-cnt {
+	width: 60%;
+}
+.profile-value-salary {
+	float: right;
+	padding: 10px 12px;
+}
+
 
 
 
