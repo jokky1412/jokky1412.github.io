@@ -25,7 +25,7 @@ a {
 .header-login {
 	height: 40px;
 	float: right;
-	margin-right: -50px;
+	/*margin-right: -50px;*/
 }
 .header-login-img {
 	margin-top: 8px;
@@ -58,7 +58,7 @@ a {
 	margin-top: 10px;
 }
 .navbar-collapse {
-	margin-right: -50px;
+	/*margin-right: -50px;*/
 }
 .navbar-collapse ul {
 	float: right;
@@ -119,7 +119,8 @@ a {
 	background-color: #d0d6d9;
 }
 
-
+.job-container {
+}
 .job-menu {
 	vertical-align: middle;
 	padding: 20px 0;
@@ -155,6 +156,9 @@ a {
 .job-branch-content {
 	margin-top: 45px;
 	background-color: #fafafa;
+}
+.job-branch-content>.j-box:(:nth-child(1)) {
+	background-color: red;
 }
 .j-box {
 	width: 385px;
