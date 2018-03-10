@@ -158,7 +158,7 @@ a {
 }
 .j-box {
 	width: 385px;
-	padding: 20px 0 15px 0;
+	padding: 20px 0 0px 0;
 	background-color: #fff;
 	border: 1px solid #d0d6d9;
 }
@@ -203,7 +203,10 @@ a {
 	vertical-align: middle;
 	position: relative;
 }
-.j-profile-basic p:nth-last-child(even) {
+/*内部的右边框*/
+.j-profile-basic p:nth-child(1),
+.j-profile-basic p:nth-child(3),
+.j-profile-basic p:nth-child(5) {
 	border-right: 1px solid #d0d6d9;
 }
 .j-profile-blk {
@@ -214,6 +217,7 @@ a {
 .profile-attitude {
 	display: inline-block;
 	padding: 10px 12px;
+	color: #c6c6c6;
 }
 .profile-value-star {
 	display: inline-block;
@@ -251,8 +255,26 @@ a {
 	float: right;
 	padding: 10px 12px;
 }
-
-
+.year {
+	color: #000;
+}
+.num-red {
+	color: red;
+}
+.j-profile-total, .j-profile-hint {
+	width: 100%;
+	padding: 10px 0 10px 10px;
+	line-height: 20px;
+	border-top: 1px solid #d0d6d9;
+}
+.j-profile-total {
+	/*font-size: 15px;*/
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+.j-profile-hint {
+	color: grey;
+}
 
 
 .footer {
