@@ -24,7 +24,11 @@ a {
 	line-height: 40px;
 }
 .header-login {
+	height: 40px;
 	float: right;
+	/*margin-right: -50px;*/
+}
+.header-login-img {
 	margin-top: 8px;
 	margin-left: 15px;
 	height: 24px;
@@ -45,40 +49,47 @@ a {
 .header-nav-wrap {
 	height: 100px;
 }
-.navbar {
+.nav, .navbar {
 	background-color: #29b078;
 }
-.navbar-wrap {
-	padding-right: 30px;
-	height: 100px;
+.navbar {
+	border: none;
 }
-.navbar ul {
+.navbar-header {
+	margin-top: 10px;
+}
+.navbar-collapse {
+	/*margin-right: -50px;*/
+}
+.navbar-collapse ul {
 	float: right;
-	margin: 0 0px 0 0;
 	padding: 0;
 	list-style: none;
 }
-.navbar li {
+.navbar-collapse li {
 	list-style: none;
 	vertical-align: middle;
 	padding: 0;
 	float: left;
 }
 .navbar-nav>li>a {
-	line-height: 80px;
-}
-.navbar a {
 	display: block;
-	
+	padding: 0;
 	height: 100px;
-	padding: 0 30px;
-	
+	line-height: 100px;
+	color: white;
 	text-align: center;
 	color: #fff;
 	font-size: 16px;
 	text-decoration: none;
 	cursor: pointer;
-	font-weight: bold;
+	font-weight: 600;
+}
+.navbar-collapse>.navbar-nav>li {
+	padding: 0 32px;
+}
+.navbar-nav>li:last-child {
+	padding: 0 0 0 32px;
 }
 
 .banner {
@@ -340,28 +351,40 @@ a {
 
 
 .footer {
+	margin-top: 230px;
+	padding: 20px 0 35px 0;
 	text-align: left;
 	color: #FFFFFF;
 	text-decoration: none;
 	background-color: #29b078;
 }
-.about {
-	padding-left: 100px;
+.about .lead {
+	padding-bottom: 40px;
+}
+.qrcode {
+	text-align: center;
+}
+.website {
+}
+.website p {
+	padding-left: 60px;
+	padding-bottom: 5px;
+}
+.website a {
+	padding-right: 30px;
 }
 .footer a {
 	color: white;
 }
-.footer-lead {
-	display: block;
+.footer .lead {
 	margin-top: 20px;
-	margin-bottom: 10px;
 	font-size: 16px;
 }
 .footer p {
 	display: block;
 }
 .footer img {
-	width: 90px;
+	width: 92px;
 }
 
 
