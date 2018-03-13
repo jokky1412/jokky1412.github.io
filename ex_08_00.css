@@ -9,8 +9,8 @@ p {
 }
 h4 {
 	text-align: center;
-	padding-top: 40px;
-	padding-bottom: 50px;	
+	padding-top: 20px;
+	padding-bottom: 20px;	
 }
 a {
 	cursor: pointer;
@@ -112,13 +112,14 @@ a {
 }
 
 .overview {
-	margin-left: 310px;
+	/*margin-left: 310px;*/
 }
 .home-tag, .stats {
-	margin-left: 50px;
+	/*margin-left: 50px;*/
 }
 .home-tag {
-	padding: 160px 0 50px 0;
+	padding: 0px 0 50px 0;
+	margin-top: 160px; 
 	text-align: center;
 	vertical-align: middle;
 }
@@ -128,12 +129,15 @@ a {
 .home-tag img {
 	max-height: 62px;
 }
+.home-tag h4 {
+	font-weight: bold;
+}
 .home-tag p {
 	margin: 0 auto;
-	padding-top: 5px;
-	width: 220px;
+	width: 224px;
 	text-align: left;
-	font-size: 15px;
+	font-size: 16px;
+	line-height: 22px;
 	color: #999999;
 }
 
@@ -149,10 +153,11 @@ a {
 	display: inline-block;
 }
 .stats {
-	margin: 30px auto 0 auto;
+	margin: 160px auto 0 auto;
 	text-align: center;
-	width: 300px;
-	padding: 50px 0 50px 0;
+	/*width: 300px;*/
+	padding: 60px;
+	border-left: 1px dashed #dedede; 
 }
 .stats-box {
 	width: 180px;
@@ -171,7 +176,7 @@ a {
 .stats-box-value {
 	display: inline-block;
 	font-size: 18px;
-	padding-left: 12px;
+	padding: 0 0 10px 12px;
 }
 .stats-box-intro {
 	display: inline-block;
