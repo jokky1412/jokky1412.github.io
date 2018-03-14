@@ -207,17 +207,19 @@ a {
 	height: 72px;
 	background: url(./Pic/task8/steps/ellipse.png) 
 				center center no-repeat;
-	background-size: 72px 72px;
+	/*background-size: 72px 72px;*/
 }
 .steps-num p { 
+	font-size: 18px;
+	font-family: "Microsoft YaHei";
 	color: #29b078; 
 }
 .steps-intro {
 	display: inline-block;
 	position: relative;
-	height: 55px;
+	height: 72px;
 	vertical-align: middle;
-	line-height: 55px;
+	/*line-height: 55px;*/
 	margin-left: 5px;
 }
 .steps-intro span {
@@ -228,7 +230,7 @@ a {
 	text-align: left;
 	vertical-align: middle;
 	margin: 0 auto;
-	font-size: 13px;
+	font-size: 14px;
 	line-height: 22px;	
 	letter-spacing: 1px;
 }
@@ -239,8 +241,8 @@ a {
 	position: relative;
 	margin: 0 auto;
 	vertical-align: middle;
-	width: 45px;
-	height: 45px;
+	width: 30px;
+	height: 72px;
 	background: url(./Pic/task8/steps/triangle-next.jpg) 
 				center center no-repeat;
 	background-size: 30px 26px;
