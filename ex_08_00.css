@@ -8,9 +8,10 @@ p {
 	letter-spacing: 1px;
 }
 h4 {
-	text-align: center;
+/*	text-align: center;
 	padding-top: 20px;
-	padding-bottom: 20px;	
+	padding-bottom: 20px;
+	font-weight: bold;*/
 }
 a {
 	cursor: pointer;
@@ -26,7 +27,6 @@ a {
 .header-login {
 	height: 40px;
 	float: right;
-	/*margin-right: -50px;*/
 }
 .header-login-img {
 	margin-top: 8px;
@@ -59,7 +59,6 @@ a {
 	margin-top: 10px;
 }
 .navbar-collapse {
-	/*margin-right: -50px;*/
 }
 .navbar-collapse ul {
 	float: right;
@@ -112,24 +111,25 @@ a {
 }
 
 .overview {
-	/*margin-left: 310px;*/
 }
 .home-tag, .stats {
-	/*margin-left: 50px;*/
 }
 .home-tag {
 	padding: 0px 0 50px 0;
-	margin-top: 160px; 
+	margin-top: 175px; 
 	text-align: center;
 	vertical-align: middle;
 }
 .home-tag-icon {
-	height: 62px;
+	height: 55px;
 }
 .home-tag img {
 	max-height: 62px;
 }
-.home-tag h4 {
+.home-tag h4, .steps h4, .trainee h4 {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	font-weight: bold;
 }
 .home-tag p {
@@ -137,12 +137,10 @@ a {
 	width: 224px;
 	text-align: left;
 	font-size: 16px;
-	line-height: 22px;
+	line-height: 24px;
 	color: #999999;
 }
-
-
-.overview-split-line {
+/*.overview-split-line {
 	float: left;
 	padding-left: 50px;
 	width: 1px;
@@ -151,17 +149,17 @@ a {
 	background: url(./Pic/task8/overview/splitline.png) center no-repeat;
 	background-size: 1px 264px;
 	display: inline-block;
-}
+}*/
 .stats {
-	margin: 160px auto 0 auto;
+	margin: 155px auto 0 auto;
 	text-align: center;
-	/*width: 300px;*/
-	padding: 60px;
+	/*padding: 60px;*/
 	border-left: 1px dashed #dedede; 
+	width: 100%;
 }
 .stats-box {
 	width: 180px;
-	margin: 0 auto 5px auto;
+	margin: 0 auto 5px 60px;
 	text-align: left;
 }
 .stats-box-icon {
@@ -175,19 +173,23 @@ a {
 }
 .stats-box-value {
 	display: inline-block;
-	font-size: 18px;
-	padding: 0 0 10px 12px;
+	padding: 3px 0 0px 12px;
+	margin-bottom: 5px;
+	color: #29b078;
+	/*font-weight: bold;*/
+	font-family: "Microsoft YaHei";
+	line-height: 26px;
 }
 .stats-box-intro {
 	display: inline-block;
-	font-size: 16px;
+	margin-top: 6px
 }
 
-
+.steps h4 {
+	margin-top: 50px;
+}
 .steps>.row{
 	text-align: center;
-	padding-left: 68px;
-	padding-right: 10px;
 }
 .steps-col {
 	padding: 40px 0 50px 0;
@@ -199,13 +201,13 @@ a {
 .steps-num {
 	display: inline-block;
 	text-align: center;
-	line-height: 55px;
+	line-height: 72px;
 	position: relative;
-	width: 55px;
-	height: 55px;
+	width: 72px;
+	height: 72px;
 	background: url(./Pic/task8/steps/ellipse.png) 
 				center center no-repeat;
-	background-size: 55px 55px;
+	background-size: 72px 72px;
 }
 .steps-num p { 
 	color: #29b078; 
@@ -221,13 +223,14 @@ a {
 .steps-intro span {
 	display: table-cell;	/*内部文字居中*/
 	position: relative;
-	width: 145px;
+	width: 155px;
 	height: 55px;
 	text-align: left;
 	vertical-align: middle;
 	margin: 0 auto;
 	font-size: 13px;
 	line-height: 22px;	
+	letter-spacing: 1px;
 }
 .steps-next {
 	display: inline-block;
