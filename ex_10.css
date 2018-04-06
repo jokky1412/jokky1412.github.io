@@ -92,10 +92,10 @@ a {
 	font-weight: 600;
 }
 .navbar-collapse>.navbar-nav>li {
-	padding: 0 32px;
+	padding: 0 30px;
 }
 .navbar-nav>li:last-child {
-	padding: 0 0 0 32px;
+	padding: 0 0 0 30px;
 }
 
 
