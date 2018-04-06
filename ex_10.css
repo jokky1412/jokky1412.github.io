@@ -64,7 +64,6 @@ a {
 	border: none;
 }
 .navbar-header {
-	/*margin-top: 10px;*/
 }
 .navbar-collapse ul {
 	float: right;
@@ -105,31 +104,58 @@ a {
 	margin-top: 230px;
 	padding: 20px 0 35px 0;
 	text-align: left;
-	color: #d0d0d0;
+	color: #afafaf;
 	text-decoration: none;
 	background-color: #f9f9f9;
+}
+.footer>.container {
+	width: 1200px;
+	padding: 0;
 }
 .about .lead {
 	padding-bottom: 40px;
 }
-.qrcode {
-	text-align: center;
+.about {
+	margin-top: 70px;
+	padding-right: 0;
+}
+.about p {
+	font-size: 18px;
+	font-weight: bold;
+	font-family: "Microsoft YaHei";
 }
 .website {
+	margin-top: 74px;
 }
 .website p {
 	padding-left: 60px;
 	padding-bottom: 5px;
 }
-.website a {
-	padding-right: 30px;
+.website a:first-child {
+	padding-right: 40px;
+}
+.website a:nth-child(2) {
+	padding-right: 25px;
+}
+.qrcode {
+	margin-top: 55px;
+}
+.qrcode-contact {
+	margin-top: 15px;
+	padding: 0 15px;
+	line-height: 12px;
+}
+.qrcode div{
+	height: 95px;
+	display: inline-block;
+	float: right;
+}
+.qrcode p {
+	margin: 0 auto;
+	padding: 0 0 15px 0;
 }
 .footer a {
-	color: #d0d0d0;
-}
-.footer .lead {
-	margin-top: 20px;
-	font-size: 16px;
+	color: #afafaf;
 }
 .footer p {
 	display: block;
@@ -143,8 +169,7 @@ a {
 	color: #FFFFFF;
 	background-color: #1d7ad9;
 	text-align: center;
-	border-top: 0.1rem solid #32c086;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	/*border-top: 0.1rem solid #32c086;*/
+	padding: 8px 0;
 	font-size: 12px;
 }
