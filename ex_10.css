@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, "Times New Roman", "Microsoft YaHei", 
+    			SimSun, SimHei;
+    -webkit-font-smoothing: antialiased;
+    background-color: #fafafa;
+}
+h5 {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 10px;	
+}
+a {
+	cursor: pointer;
+}
+
+.flow, .form {
+	background-color: #fff;
+}
+
+
+.header {
+	height: 40px;
+	line-height: 40px;
+	padding: 0;
+	background-color: #1d7ad9;
+}
+.header>.container {
+	width: 1200px;
+	padding: 0;
+}
+.header-tel {
+	color: #fff;
+	font-size: 14px;
+}
+.header-nav-wrap{
+	background-color: #f9f9f9;
+}
+.header-submit {
+	text-align: right;
+}
+.header-submit a {
+	display: inline-block;
+	font-size: 16px;
+	font-family: "Microsoft YaHei";
+	text-align: center;
+}
+.header-login {
+	width: 55px;
+	height: 40px;
+	color: #fff;
+	border-left: 1px solid #fff;
+}
+.header-register {
+	background-color: #fff;
+	color: #000;
+	width: 105px;
+}
+.header-nav-wrap {
+	height: 100px;
+}
+.navbar {
+	width: 1200px;
+	padding: 0;
+	border: none;
+}
+.navbar-header {
+	/*margin-top: 10px;*/
+}
+.navbar-collapse ul {
+	float: right;
+	padding: 30px 0 25px 0;
+	list-style: none;
+}
+.navbar-collapse li {
+	list-style: none;
+	vertical-align: middle;
+	padding: 0;
+	float: left;
+}
+.navbar-nav>li>a {
+	display: block;
+	padding: 0 18px;
+	height: 50px;
+	line-height: 50px;
+	background-color: #fff;
+	color: #000;
+	text-align: center;
+	font-family: "Microsoft YaHei";
+	font-size: 16px;
+	text-decoration: none;
+	cursor: pointer;
+	font-weight: 600;
+}
+.navbar-collapse>.navbar-nav>li {
+	padding: 0 32px;
+}
+.navbar-nav>li:last-child {
+	padding: 0 0 0 32px;
+}
+
+
+
+
+.footer {
+	margin-top: 230px;
+	padding: 20px 0 35px 0;
+	text-align: left;
+	color: #d0d0d0;
+	text-decoration: none;
+	background-color: #f9f9f9;
+}
+.about .lead {
+	padding-bottom: 40px;
+}
+.qrcode {
+	text-align: center;
+}
+.website {
+}
+.website p {
+	padding-left: 60px;
+	padding-bottom: 5px;
+}
+.website a {
+	padding-right: 30px;
+}
+.footer a {
+	color: #d0d0d0;
+}
+.footer .lead {
+	margin-top: 20px;
+	font-size: 16px;
+}
+.footer p {
+	display: block;
+}
+.footer img {
+	width: 94px;
+}
+
+
+.copyright {
+	color: #FFFFFF;
+	background-color: #1d7ad9;
+	text-align: center;
+	border-top: 0.1rem solid #32c086;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 12px;
+}
