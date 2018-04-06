@@ -183,6 +183,9 @@ a {
 }
 
 
+.steps {
+	width: 1210px;
+}
 .steps>.row{
 	text-align: center;
 }
@@ -301,8 +304,8 @@ a {
 }
 .enterprise>.row {
 	position: relative;
-	width: 1200px;
-	margin: 0 auto;
+	width: 1208px;
+	margin: 0 auto 0 340px;
 	text-align: center;
 }
 .enterprise-section {
@@ -329,7 +332,7 @@ a {
 
 
 .links {
-	width: 100%;
+	/*width: 100%;*/
 	padding: 0 0 10px 0;
 	background-color: #FFFFFF;
 }
@@ -341,16 +344,19 @@ a {
 	margin: 10px 0 20px 0;
 	padding-top: 10px 0;
 }
+.links-block {
+	width: 1200px;
+	margin: 0 auto;
+}
 .links-block ul {
-	/*width: 1200px;*/
 	padding: 0;
-	text-align: center;
+	/*text-align: center;*/
 	margin: 0 auto;
 }
 .links-block li {
-	width: 120px;
-	padding: 0 50px 0 0;
+	padding: 0 55px 0 0;
 	margin: 0 auto;
+	text-align: center;
 	display: inline-block;
 	list-style-type: disc;
 }
@@ -358,25 +364,40 @@ a {
 	content:'\ffed'; 
 	margin-right:0.5em;
 }
+/*左侧的圆点*/
+.links-block li:last-child {
+	width: auto;
+	padding: 0 0px 0 0;	
+}
 .links-block a {
 	text-decoration: none;
 	color: #000000;
+	line-height: 30px;
 }
 
 
 .footer {
-	margin-top: 230px;
+	/*margin-top: 230px;*/
 	padding: 20px 0 35px 0;
 	text-align: left;
 	color: #FFFFFF;
 	text-decoration: none;
 	background-color: #29b078;
 }
+.footer>.container {
+	width: 1200px;
+}
 .about .lead {
 	padding-bottom: 40px;
 }
+.about {
+	padding-left: 0;
+}
 .qrcode {
-	text-align: center;
+	text-align: right;
+}
+.qrcode img {
+	margin-right: 10px;
 }
 .website {
 }
