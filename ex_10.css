@@ -207,15 +207,23 @@ a {
 	background-size: 19px 21px;
 }
 .form-content {
-	/*display: table;*/
-	padding: 0px 0px 35px 15px;
 	background-color: #fbfcff;
 }
+.content-model {
+	padding: 7px 0px 30px 15px; 
+}
+.content-size {
+	padding: 0px 0px 33px 15px;
+}
+.content-material {
+	padding: 30px 0px 60px 15px;
+}
 .form-content ul {
-	display: block;
+	display: inline-block;
+	height: 20px;
 	list-style: none;
 	margin: 0 auto;
-	padding: 35px 0 0 0;
+	padding: 30px 0 0 0;
 }
 .form-content li {
 	/*内部元素垂直居中。IE9无效*/
@@ -242,12 +250,13 @@ a {
 	text-align: center;
 	vertical-align: middle;
 }
-/*设置选中的input的样式*/
+/*设置选中的input radio的样式*/
 /* + 是兄弟选择器,获取选中后的label元素*/
 .form-content input[type="radio"]:checked+label { 
 	background-color: #1d7ad9;
 	border: 1px solid #1d7ad9;
 }
+/*选中后的radio：蓝色实心圆，中间百色空心小圆*/
 .form-content input[type="radio"]:checked+label::after {
 	content: "";
 	position: absolute;
@@ -260,8 +269,9 @@ a {
 	background-color: #FFF;
 }
 .form-content span {
-	/*padding: 0 20px 0 0;*/
 	font-size: 18px;
+	height: 20px;
+	line-height: 20px;
 }
 .form-content input[type="text"] {
 	width: 70px;
@@ -271,8 +281,20 @@ a {
 	background-color: #fbfcff;
 	border: 1px solid #dbdcdc;
 }
-
-
+.form-content>select {
+	display: inline;
+	margin: 18px 20px 25px 0;
+	float: right;
+	width: 130px;
+	height: 40px;
+	font-size: 14px;
+	font-family: "Microsoft YaHei";
+	/*color: #f3f3f3;*/
+	background-color: #FFF;
+}
+.form-content>option {
+	text-align: center;
+}
 
 
 
