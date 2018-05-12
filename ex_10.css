@@ -281,20 +281,7 @@ a {
 	background-color: #fbfcff;
 	border: 1px solid #dbdcdc;
 }
-.form-content>select {
-	display: inline;
-	margin: 18px 20px 25px 0;
-	float: right;
-	width: 130px;
-	height: 40px;
-	font-size: 14px;
-	font-family: "Microsoft YaHei";
-	/*color: #f3f3f3;*/
-	background-color: #FFF;
-}
-.form-content>option {
-	text-align: center;
-}
+
 .form-submit {
 	text-align: center;
 }
@@ -302,7 +289,6 @@ a {
 	width: 180px;
 	height: 48px;
 	margin: 145px 0 100px 0;
-	/*line-height: 45px;*/
 	text-align: center;
 	vertical-align: middle;
 	border: 1px solid #e15053;
@@ -311,6 +297,67 @@ a {
 	font-family: "Microsoft YaHei";
 	color: #FFF;
 	background-color: #e15053;
+}
+
+.detail-block {
+	display: inline-block;
+	float: right;
+	height: 40px;
+/*	position: relative;
+	top: 50%;
+	transform: translateY(-50%);*/
+	margin: 0 auto;
+}
+.detail-dropdown {
+	display: inline-block;
+	/*margin: 18px 20px 25px 0;*/
+    /*filter: alpha(opacity: 0;);*/
+    color: #a9a9a9;
+    background-color: #FFF;
+    border: 1px solid #e8e8e8;
+}
+/*下拉箭头图标和位置*/
+.detail-btn::after {
+	content: "";
+	position: absolute;
+	right: 6px;
+	top: 5px;
+	width: 24px;
+	height: 28px;
+	background: url(./Pic/task10/detail-block.png) no-repeat center;
+	background-size: 24px 28px;
+	pointer-events: none;
+}
+.detail-dropdown .detail-btn {
+    position: absolute;
+    display: block;
+	width: 130px;
+	height: 40px;
+    line-height: 40px;
+	font-size: 14px;
+	font-family: "Microsoft YaHei";
+    text-indent: 18px;
+}
+/*透明化select，只显示span*/
+.detail-dropdown select { 
+	width: 130px;
+	height: 40px;
+	opacity: 0; 
+	/*filter: alpha(opacity: 0;); */
+	font-size: 14px;
+	font-family: "Microsoft YaHei";
+	color: #a9a9a9;  
+} 
+.detail-dropdown option {
+}
+.content-model .detail-block {
+	margin: 18px 20px 25px 0;
+}
+.content-size .detail-block {
+	margin: 0 20px 0 0;
+}
+.content-material .detail-block {
+	margin: 20px 20px 0 0;
 }
 
 
