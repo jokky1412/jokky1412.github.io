@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, "Times New Roman", "Microsoft YaHei", 
+    			SimSun, SimHei;
+    -webkit-font-smoothing: antialiased;
+    background-color: #fafafa;
+}
+h5 {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 10px;	
+}
+a {
+	cursor: pointer;
+}
+
+dir {
+	padding-left: 0;
+}
+
+.container {
+	width: 1200px;
+	margin-top: 100px;
+}
