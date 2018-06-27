@@ -9,6 +9,7 @@
 	<link rel="stylesheet" type="text/css" 
 	href="../bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="js_01.css">	
+	<link rel="stylesheet" type="text/css" href="js_01.js">	
 	<script src="../bootstrap/3.3.7/jquery/2.1.1/jquery.min.js"></script>
 	<script src="../bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="js_01.js"></script>
@@ -17,20 +18,24 @@
 <body>
 	<div class="wrapper">
 		<div class="main">
-			<div class="retc">&nbsp;</div>
-			<div class="retc">&nbsp;</div>
-			<div class="retc">&nbsp;</div>
-			<div class="retc">&nbsp;</div>
-			<div class="retc">&nbsp;</div>
-			<div class="retc">&nbsp;</div>
-			<div class="retc">&nbsp;</div>
-			<div class="retc">&nbsp;</div>
-			<div class="retc">&nbsp;</div>
+			<div class="retc" id="retc0">&nbsp;</div>
+			<div class="retc" id="retc1">&nbsp;</div>
+			<div class="retc" id="retc2">&nbsp;</div>
+			<div class="retc" id="retc3">&nbsp;</div>
+			<div class="retc" id="retc4">&nbsp;</div>
+			<div class="retc" id="retc5">&nbsp;</div>
+			<div class="retc" id="retc6">&nbsp;</div>
+			<div class="retc" id="retc7">&nbsp;</div>
+			<div class="retc" id="retc8">&nbsp;</div>
 		</div>
-		<div class="btn">开始闪
+		<div class="btn" id="start" onclick="btnStart()">
+			开始闪
 		</div>
-		<div class="btn">结束闪
+		<div class="btn" id="stop" onclick="btnStop()">
+			结束闪
 		</div>
+		<p id="para" style="text-align: center;">para</p>
+		<p id="index" style="text-align: center;">index</p>
 	</div>
 </body>
 </html>
