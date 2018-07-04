@@ -1,9 +1,15 @@
-var flag = 1;	//全局变量，控制开始和停止
-
+var flag = 0;	//全局变量，控制开始和停止
+var timer;	//计时器定义
 function loopRetcColor() {
-	flag = 1;
-	if (flag == 1)
-	t = setInterval("btnStart()",1000);		//每秒循环
+	//只在没有开始循环的时候开始循环
+	if (flag == 0) {
+		flag = 1;
+		clearInterval(timer);	//每次循环开始前必须清零计时器
+		timer = setInterval("btnStart()",1000);		//每秒循环
+	}
+	if (flag == 1){
+		//若正在循环，则不再一次执行setInterval语句。否则会对计时器进行加速
+	}
 }
 function btnStart() {
 	if (flag == 1){
@@ -43,9 +49,13 @@ function btnStart() {
 }
 
 function btnStop() {
-	flag = 0;
-	if(flag == 0)
+	clearInterval(timer);
+	if (flag == 1) {
+		flag = 0;
+	}
+	if(flag == 0) {
 		for (var i = 0; i <= 8; i++) {
 			document.getElementById("retc" + i).style.backgroundColor = "#fea600";
 		}
+	}
 }
