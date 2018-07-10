@@ -31,21 +31,23 @@ function btnStart() {
 		}
 		// 给方块填色
 		document.getElementById("Arr").innerHTML = "Arr: " + Arr;
-	//	document.getElementById("index").innerHTML = (originalArr[0]+"，"+originalArr[1]+"，"+originalArr[2]); 
-		document.getElementById("retc"+Arr[0]).style.backgroundColor = "red";
-		document.getElementById("retc"+Arr[1]).style.backgroundColor = "red";
-		document.getElementById("retc"+Arr[2]).style.backgroundColor = "red";
 
+		//给3个矩形生成的随机颜色
+		for(var i = 0; i <= 2; i++){
+			document.getElementById("retc"+Arr[i]).style.backgroundColor = randomHexColor();
+		}
+		//其余矩形颜色不变
 		for(var i = 3; i <= 8; i++){
 			document.getElementById("retc"+Arr[i]).style.backgroundColor = "#fea600";
 		}
-		// document.getElementById("retc"+Arr[3]).style.backgroundColor = "#fea600";
-		// document.getElementById("retc"+Arr[4]).style.backgroundColor = "#fea600";
-		// document.getElementById("retc"+Arr[5]).style.backgroundColor = "#fea600";
-		// document.getElementById("retc"+Arr[6]).style.backgroundColor = "#fea600";
-		// document.getElementById("retc"+Arr[7]).style.backgroundColor = "#fea600";
-		// document.getElementById("retc"+Arr[8]).style.backgroundColor = "#fea600";
 	}
+}
+
+function randomHexColor() {
+	var r = Math.floor(Math.random() * 256); //随机生成256以内r值
+	var g = Math.floor(Math.random() * 256); //随机生成256以内g值
+	var b = Math.floor(Math.random() * 256); //随机生成256以内b值
+	return `rgb(${r},${g},${b})`; //返回rgb(r,g,b)格式颜色
 }
 
 function btnStop() {
